@@ -20,7 +20,7 @@ const App = () => {
  
   return (
       <div>
-          <h1>Message from Backend - by pranay </h1>
+          <h1>Message from Backend - by pranay bhatt</h1>
           <p>{message}</p>
       </div>
   );
