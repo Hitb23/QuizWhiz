@@ -11,6 +11,6 @@ namespace server.Controller
         {
             return Ok(new { message = "Hello from the backend!" });
         }
-        //just checking by Ishan Bhatt
+        //just checking by Ishan Bhatt C
     }
 }
