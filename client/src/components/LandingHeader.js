@@ -7,7 +7,7 @@ function LandingHeader() {
     <>
     <div className={classes.header}>
       <div className={classes.logoDiv}>
-        <img className={`img-responsive`} width='140rem' height='100rem' src={logo} alt='logo'/>
+        <img className={`img-responsive ${classes.webLogo}`} src={logo} alt='logo'/>
       </div>
       <div className={classes.headerButtons}>
         <button className={classes.signUpButton} >Sign Up</button>
