@@ -9,8 +9,8 @@ namespace server.Controller
         [HttpGet("get")]
         public IActionResult Get()
         {
-            return Ok(new { message = "Hello from the backend!" });
+            return Ok(new { message = "Hello from the backend from Ishani!" });
         }
-        //just checking by Ishan Bhatt
+        //just checking by Ishan Bhatt C
     }
 }
