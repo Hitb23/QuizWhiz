@@ -1,34 +1,20 @@
 import React from "react";
 import AuthHeader from "../components/headers/AuthHeader";
-import classes from "./LoginPage.module.css";
+import classes from "./ResetPasswordPage.module.css";
 import { Link } from "react-router-dom";
 
-const LoginPage = () => {
+const ResetPasswordPage = () => {
   return (
     <React.Fragment>
       <AuthHeader />
       <main className={`${classes.mainComponent} container-fluid`}>
         <div className={`row justify-content-center`}>
           <div
-            className={`${classes.logInTitle} col-md-6 col-sm-8 col-10 text-center fw-bold`}
+            className={`${classes.resetPasswordTitle} col-md-6 col-sm-8 col-10 text-center fw-bold`}
           >
-            Log In
+            Reset Password
           </div>
           <div>
-            <div className={`d-flex justify-content-center`}>
-              <div className="col-xl-4 col-md-6 col-sm-8 col-10 pt-3 pb-3">
-                <label htmlFor="email" className="form-label fw-bold">
-                  Email Address
-                </label>
-                <input
-                  type="email"
-                  className={`${classes.formInput} form-control form-control-md p-3`}
-                  id="email"
-                  placeholder="name@example.com"
-                  autoComplete="off"
-                />
-              </div>
-            </div>
             <div className={`d-flex justify-content-center`}>
               <div className="col-xl-4 col-md-6 col-sm-8 col-10 pt-3 pb-3">
                 <label htmlFor="password" className="form-label fw-bold">
@@ -43,31 +29,32 @@ const LoginPage = () => {
               </div>
             </div>
             <div className={`d-flex justify-content-center`}>
-              <div className="col-xl-4 col-md-6 col-sm-8 col-10 pt-3 pb-3 d-flex flex-row-reverse">
-                <Link to="/forgot-password">
-                  <label
-                    className={`form-label fw-bold text-end text-decoration-none text-black pe-auto ${classes.forgotPasswordLabel}`}
-                  >
-                    Forgot Password?
-                  </label>
-                </Link>
+              <div className="col-xl-4 col-md-6 col-sm-8 col-10 pt-3 pb-3">
+                <label htmlFor="confirmpassword" className="form-label fw-bold">
+                  Confirm Password
+                </label>
+                <input
+                  type="password"
+                  className={`${classes.formInput} form-control form-control-md p-3`}
+                  id="confirmpassword"
+                  placeholder="Password"
+                />
               </div>
             </div>
             <div className={`d-flex justify-content-center`}>
               <div className="col-xl-4 col-md-6 col-sm-8 col-10 pt-3 pb-3 d-flex justify-content-center">
-                <button className={classes.logInButton}>Log In</button>
+                <button className={classes.resetPasswordButton}>
+                  Reset Password
+                </button>
               </div>
             </div>
             <div className={`d-flex justify-content-center`}>
               <div className="col-xl-4 col-md-6 col-sm-8 col-10 pt-3 pb-3 d-flex justify-content-center column-gap-2 flex-wrap">
-                <div className="d-flex align-items-center">
-                  Don't you have an account?
-                </div>
-                <Link to="/sign-up">
+                <Link to="/login">
                   <label
-                    className={`form-label fw-bold text-end text-decoration-none m-0 text-black pe-auto ${classes.logInLabel}`}
+                    className={`form-label fw-bold text-end text-decoration-none m-0 text-black pe-auto ${classes.backToLoginLabel}`}
                   >
-                    Sign Up
+                    &lt; Back To Login
                   </label>
                 </Link>
               </div>
@@ -79,4 +66,4 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default ResetPasswordPage;

@@ -1,0 +1,44 @@
+.mainComponent {
+  padding: 1rem 1rem 3rem 1rem;
+}
+
+.signUpTitle {
+  color: #ED6744;
+  font-size: 50px;
+  padding-top: 1rem;
+}
+
+.formInput {
+  border: 1px solid #ED6744;
+}
+
+.formInput:focus,
+.formInput:hover {
+    outline: 1px solid #ED6744;
+    border: 1px solid #f33404;
+    box-shadow: 0 0 16px 0 rgba(228, 55, 55, 0.18), 0 2px 4px 0 rgba(228, 55, 55, 0.12);
+}
+
+.forgotPasswordLabel,
+.signUpLabel {
+  font-size: 18px;
+}
+
+.signUpButton {
+  padding: 0.8rem 2.5rem 0.8rem 2.5rem;
+  font-size: 20px;
+  background-color: #ED6744;
+  color: #FFFFFF;
+  border-radius: 0.5rem;
+  border: 1px solid #ED6744;
+}
+
+@media (max-height: 750px) {
+  .mainComponent {
+    padding: 1rem;
+  }
+
+  .signUpTitle {
+    padding-top: 0rem;
+  }
+}
