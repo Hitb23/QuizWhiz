@@ -7,9 +7,7 @@ using System.Threading.Tasks;
 
 namespace server.repository.IRepository
 {
-    public interface IUserRepository
+    public interface IAuthRepository
     {
-        Task<User> GetUserByEmailAndPasswordAsync(string email, string password);
-
     }
 }

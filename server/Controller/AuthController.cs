@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using server.DataLayer.DataContext;
 using server.DataLayer.DTO;
-using server.Helpers;
+using server.services.IServices;
 using System.Data;
 using System.Linq;
 namespace server.Controller
@@ -14,29 +14,28 @@ namespace server.Controller
     {
         private readonly ApplicationDbContext _context;
         private readonly IConfiguration _configuration;
-        private readonly JwtHelper _jwtHelper;
+        private readonly IAuthService _authService;
+        
 
-        public AuthController(ApplicationDbContext context, IConfiguration configuration, JwtHelper jwtHelper)
+        public AuthController(ApplicationDbContext context, IConfiguration configuration, IAuthService authService)
         {
             _context = context;
             _configuration = configuration;
-            _jwtHelper = jwtHelper;
+            _authService = authService;
         }
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginDTO LoginCredential)
         {
-            
-          var user = _context.Users
-         .Where(u => u.Email == LoginCredential.Email && u.PasswordHash == LoginCredential.Password)
-         .Include(u => u.Role) 
-         .FirstOrDefault();
-
-            if (user == null)
+            if (!ModelState.IsValid)
             {
-                return Unauthorized();
-            }         
-           
-            var token = _jwtHelper.GenerateJwtToken(LoginCredential.Email, LoginCredential.Password, user.Role.RoleName );
+                return BadRequest(ModelState);
+            }
+            var token = await _authService.AuthenticateUserAsync(LoginCredential);
+
+            if (token == null)
+            {
+                return Unauthorized(new { message = "Invalid credentials" });
+            }
 
             return Ok(new { token });
 

@@ -2,9 +2,10 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using server.DataLayer.DataContext;
-using server.Helpers;
 using server.repository.IRepository;
 using server.repository.Repository;
+using server.services.IServices;
+using server.services.Services;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -28,8 +29,12 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
         };
     });
+builder.Services.AddScoped<server.DataLayer.Helpers.JwtHelper>();
 builder.Services.AddScoped<IUserServices, UserServices>();
 builder.Services.AddScoped(typeof(IUserRepository), typeof(UserRepository));
+
+builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped(typeof(IAuthRepository), typeof(AuthRepository));
 
 builder.Services.AddCors(options =>
 {
@@ -52,7 +57,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
             options.UseNpgsql(builder.Configuration.GetConnectionString("defaultString")));
 // Add authorization services
 builder.Services.AddAuthorization();
-builder.Services.AddScoped<JwtHelper>();
+
 builder.Services.AddControllers();
 
 var app = builder.Build();

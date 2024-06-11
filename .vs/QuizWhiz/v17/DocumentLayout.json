@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "D:\\QuizWhiz\\QuizWhiz\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|d:\\quizwhiz\\quizwhiz\\server\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|solutionrelative:server\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A753F6D0-B5BA-4C64-9786-E86E1802996C}|server.repository\\server.repository.csproj|d:\\quizwhiz\\quizwhiz\\server.repository\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A753F6D0-B5BA-4C64-9786-E86E1802996C}|server.repository\\server.repository.csproj|solutionrelative:server.repository\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC5B46BE-20F2-44FD-987E-FABC789E79D6}|DataLayer\\server.DataLayer.csproj|d:\\quizwhiz\\quizwhiz\\datalayer\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC5B46BE-20F2-44FD-987E-FABC789E79D6}|DataLayer\\server.DataLayer.csproj|solutionrelative:datalayer\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{409F09EA-48EF-44B5-A570-6BBEA5312AB6}|server.services\\server.services.csproj|d:\\quizwhiz\\quizwhiz\\server.services\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{409F09EA-48EF-44B5-A570-6BBEA5312AB6}|server.services\\server.services.csproj|solutionrelative:server.services\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|d:\\quizwhiz\\quizwhiz\\server\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|solutionrelative:server\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{409F09EA-48EF-44B5-A570-6BBEA5312AB6}|server.services\\server.services.csproj|d:\\quizwhiz\\quizwhiz\\server.services\\iservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{409F09EA-48EF-44B5-A570-6BBEA5312AB6}|server.services\\server.services.csproj|solutionrelative:server.services\\iservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A753F6D0-B5BA-4C64-9786-E86E1802996C}|server.repository\\server.repository.csproj|d:\\quizwhiz\\quizwhiz\\server.repository\\irepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A753F6D0-B5BA-4C64-9786-E86E1802996C}|server.repository\\server.repository.csproj|solutionrelative:server.repository\\irepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|d:\\quizwhiz\\quizwhiz\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A753F6D0-B5BA-4C64-9786-E86E1802996C}|server.repository\\server.repository.csproj|d:\\quizwhiz\\quizwhiz\\server.repository\\irepository\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A753F6D0-B5BA-4C64-9786-E86E1802996C}|server.repository\\server.repository.csproj|solutionrelative:server.repository\\irepository\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC5B46BE-20F2-44FD-987E-FABC789E79D6}|DataLayer\\server.DataLayer.csproj|d:\\quizwhiz\\quizwhiz\\datalayer\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC5B46BE-20F2-44FD-987E-FABC789E79D6}|DataLayer\\server.DataLayer.csproj|solutionrelative:datalayer\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A753F6D0-B5BA-4C64-9786-E86E1802996C}|server.repository\\server.repository.csproj|d:\\quizwhiz\\quizwhiz\\server.repository\\repository\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A753F6D0-B5BA-4C64-9786-E86E1802996C}|server.repository\\server.repository.csproj|solutionrelative:server.repository\\repository\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC5B46BE-20F2-44FD-987E-FABC789E79D6}|DataLayer\\server.DataLayer.csproj|d:\\quizwhiz\\quizwhiz\\datalayer\\models\\resetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,14 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|d:\\quizwhiz\\quizwhiz\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|solutionrelative:server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|d:\\quizwhiz\\quizwhiz\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC5B46BE-20F2-44FD-987E-FABC789E79D6}|DataLayer\\server.DataLayer.csproj|d:\\quizwhiz\\quizwhiz\\datalayer\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC5B46BE-20F2-44FD-987E-FABC789E79D6}|DataLayer\\server.DataLayer.csproj|solutionrelative:datalayer\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|d:\\quizwhiz\\quizwhiz\\server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -71,20 +95,12 @@
       "RelativeMoniker": "D:0:0:{A753F6D0-B5BA-4C64-9786-E86E1802996C}|server.repository\\server.repository.csproj|solutionrelative:server.repository\\server.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A753F6D0-B5BA-4C64-9786-E86E1802996C}|server.repository\\server.repository.csproj|d:\\quizwhiz\\quizwhiz\\server.repository\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A753F6D0-B5BA-4C64-9786-E86E1802996C}|server.repository\\server.repository.csproj|solutionrelative:server.repository\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{409F09EA-48EF-44B5-A570-6BBEA5312AB6}|server.services\\server.services.csproj|d:\\quizwhiz\\quizwhiz\\server.services\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{409F09EA-48EF-44B5-A570-6BBEA5312AB6}|server.services\\server.services.csproj|solutionrelative:server.services\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{409F09EA-48EF-44B5-A570-6BBEA5312AB6}|server.services\\server.services.csproj|d:\\quizwhiz\\quizwhiz\\server.services\\iservices\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{409F09EA-48EF-44B5-A570-6BBEA5312AB6}|server.services\\server.services.csproj|solutionrelative:server.services\\iservices\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A753F6D0-B5BA-4C64-9786-E86E1802996C}|server.repository\\server.repository.csproj|d:\\quizwhiz\\quizwhiz\\server.repository\\irepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A753F6D0-B5BA-4C64-9786-E86E1802996C}|server.repository\\server.repository.csproj|solutionrelative:server.repository\\irepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|d:\\quizwhiz\\quizwhiz\\server\\server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -102,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,45 +126,137 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "JwtHelper.cs",
-              "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\server\\Helpers\\JwtHelper.cs",
-              "RelativeDocumentMoniker": "server\\Helpers\\JwtHelper.cs",
-              "ToolTip": "D:\\QuizWhiz\\QuizWhiz\\server\\Helpers\\JwtHelper.cs",
-              "RelativeToolTip": "server\\Helpers\\JwtHelper.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBIAAAAIAAAA",
+              "DocumentIndex": 7,
+              "Title": "IAuthRepository.cs",
+              "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\server.repository\\IRepository\\IAuthRepository.cs",
+              "RelativeDocumentMoniker": "server.repository\\IRepository\\IAuthRepository.cs",
+              "ToolTip": "D:\\QuizWhiz\\QuizWhiz\\server.repository\\IRepository\\IAuthRepository.cs",
+              "RelativeToolTip": "server.repository\\IRepository\\IAuthRepository.cs",
+              "ViewState": "AQIAAAIAAADgzMzMzMwYwAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T12:05:16.291Z",
+              "WhenOpened": "2024-06-11T17:04:19.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\DataLayer\\DTO\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "DataLayer\\DTO\\LoginDTO.cs",
-              "ToolTip": "D:\\QuizWhiz\\QuizWhiz\\DataLayer\\DTO\\LoginDTO.cs",
-              "RelativeToolTip": "DataLayer\\DTO\\LoginDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAoAAAA",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\server.services\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "server.services\\Services\\AuthService.cs",
+              "ToolTip": "D:\\QuizWhiz\\QuizWhiz\\server.services\\Services\\AuthService.cs",
+              "RelativeToolTip": "server.services\\Services\\AuthService.cs",
+              "ViewState": "AQIAABUAAACA/v///38WwBgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T11:38:48.251Z"
+              "WhenOpened": "2024-06-11T17:03:36.175Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\server.services\\IServices\\IAuthService.cs",
+              "RelativeDocumentMoniker": "server.services\\IServices\\IAuthService.cs",
+              "ToolTip": "D:\\QuizWhiz\\QuizWhiz\\server.services\\IServices\\IAuthService.cs",
+              "RelativeToolTip": "server.services\\IServices\\IAuthService.cs",
+              "ViewState": "AQIAAAIAAABQMzMzMzMrwAsAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T17:02:59.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\server\\Controller\\AuthController.cs",
               "RelativeDocumentMoniker": "server\\Controller\\AuthController.cs",
               "ToolTip": "D:\\QuizWhiz\\QuizWhiz\\server\\Controller\\AuthController.cs",
               "RelativeToolTip": "server\\Controller\\AuthController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwC0AAAAAAAAA",
+              "ViewState": "AQIAAA4AAACAZGZmZmYBwBsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T11:37:40.259Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\server\\Program.cs",
+              "RelativeDocumentMoniker": "server\\Program.cs",
+              "ToolTip": "D:\\QuizWhiz\\QuizWhiz\\server\\Program.cs",
+              "RelativeToolTip": "server\\Program.cs",
+              "ViewState": "AQIAAGQAAAAAmpmZmVkqwAMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T05:09:14.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\server.repository\\IRepository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "server.repository\\IRepository\\IUserRepository.cs",
+              "ToolTip": "D:\\QuizWhiz\\QuizWhiz\\server.repository\\IRepository\\IUserRepository.cs",
+              "RelativeToolTip": "server.repository\\IRepository\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T10:12:10.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\server.repository\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "server.repository\\Repository\\UserRepository.cs",
+              "ToolTip": "D:\\QuizWhiz\\QuizWhiz\\server.repository\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "server.repository\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAABUAAABAMzMzM7MlwCMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T10:12:34.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\DataLayer\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "DataLayer\\DTO\\LoginDTO.cs",
+              "ToolTip": "D:\\QuizWhiz\\QuizWhiz\\DataLayer\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "DataLayer\\DTO\\LoginDTO.cs",
+              "ViewState": "AQIAAAkAAADg/v///z8rwAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:38:48.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JwtHelper.cs",
+              "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\DataLayer\\Helpers\\JwtHelper.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Helpers\\JwtHelper.cs",
+              "ToolTip": "D:\\QuizWhiz\\QuizWhiz\\DataLayer\\Helpers\\JwtHelper.cs",
+              "RelativeToolTip": "DataLayer\\Helpers\\JwtHelper.cs",
+              "ViewState": "AQIAAA8AAADAzMzMzMwFwBQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T17:18:22.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\server.repository\\Repository\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "server.repository\\Repository\\AuthRepository.cs",
+              "ToolTip": "D:\\QuizWhiz\\QuizWhiz\\server.repository\\Repository\\AuthRepository.cs",
+              "RelativeToolTip": "server.repository\\Repository\\AuthRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T17:04:55.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\server\\appsettings.json",
               "RelativeDocumentMoniker": "server\\appsettings.json",
@@ -160,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\server\\Controller\\UserController.cs",
               "RelativeDocumentMoniker": "server\\Controller\\UserController.cs",
@@ -172,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "ResetPassword.cs",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\DataLayer\\Models\\ResetPassword.cs",
               "RelativeDocumentMoniker": "DataLayer\\Models\\ResetPassword.cs",
@@ -184,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "UserRole.cs",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\DataLayer\\Models\\UserRole.cs",
               "RelativeDocumentMoniker": "DataLayer\\Models\\UserRole.cs",
@@ -196,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\DataLayer\\Models\\User.cs",
               "RelativeDocumentMoniker": "DataLayer\\Models\\User.cs",
@@ -208,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "server.DataLayer.csproj",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\DataLayer\\server.DataLayer.csproj",
               "RelativeDocumentMoniker": "DataLayer\\server.DataLayer.csproj",
@@ -220,19 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\server\\Program.cs",
-              "RelativeDocumentMoniker": "server\\Program.cs",
-              "ToolTip": "D:\\QuizWhiz\\QuizWhiz\\server\\Program.cs",
-              "RelativeToolTip": "server\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T05:09:14.927Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\server\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "server\\Properties\\launchSettings.json",
@@ -244,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "Contestant.cs",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\DataLayer\\Models\\Contestant.cs",
               "RelativeDocumentMoniker": "DataLayer\\Models\\Contestant.cs",
@@ -256,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "Admin.cs",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\DataLayer\\Models\\Admin.cs",
               "RelativeDocumentMoniker": "DataLayer\\Models\\Admin.cs",
@@ -268,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\DataLayer\\DataContext\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "DataLayer\\DataContext\\ApplicationDbContext.cs",
@@ -280,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "server.repository.csproj",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\server.repository\\server.repository.csproj",
               "RelativeDocumentMoniker": "server.repository\\server.repository.csproj",
@@ -292,19 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\server.repository\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "server.repository\\Repository\\UserRepository.cs",
-              "ToolTip": "D:\\QuizWhiz\\QuizWhiz\\server.repository\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "server.repository\\Repository\\UserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T10:12:34.507Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "20240611105257_InitialCreate.cs",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\DataLayer\\Migrations\\20240611105257_InitialCreate.cs",
               "RelativeDocumentMoniker": "DataLayer\\Migrations\\20240611105257_InitialCreate.cs",
@@ -316,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "UserServices.cs",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\server.services\\Services\\UserServices.cs",
               "RelativeDocumentMoniker": "server.services\\Services\\UserServices.cs",
@@ -328,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "IUserServices.cs",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\server.services\\IServices\\IUserServices.cs",
               "RelativeDocumentMoniker": "server.services\\IServices\\IUserServices.cs",
@@ -341,18 +425,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\server.repository\\IRepository\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "server.repository\\IRepository\\IUserRepository.cs",
-              "ToolTip": "D:\\QuizWhiz\\QuizWhiz\\server.repository\\IRepository\\IUserRepository.cs",
-              "RelativeToolTip": "server.repository\\IRepository\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T10:12:10.199Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "TestController.cs",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\server\\Controller\\TestController.cs",
               "RelativeDocumentMoniker": "server\\Controller\\TestController.cs",
@@ -364,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "server.csproj",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\server\\server.csproj",
               "RelativeDocumentMoniker": "server\\server.csproj",
@@ -376,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "server",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\server\\server.csproj",
               "RelativeDocumentMoniker": "server\\server.csproj",
