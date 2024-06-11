@@ -1,6 +1,9 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using server.DataLayer.DataContext;
+using server.repository.IRepository;
+using server.repository.Repository;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,6 +27,8 @@ builder.Services.AddSwaggerGen();
 //            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
 //        };
 //    });
+builder.Services.AddScoped<IUserServices, UserServices>();
+builder.Services.AddScoped(typeof(IUserRepository), typeof(UserRepository));
 
 builder.Services.AddCors(options =>
 {
@@ -42,8 +47,8 @@ builder.Services.AddControllers()
            options.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore; // Optional: Ignore null values
        });
 
-//builder.Services.AddDbContext<ApplicationDbContext>(options =>
-//            options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+            options.UseNpgsql(builder.Configuration.GetConnectionString("defaultString")));
 // Add authorization services
 builder.Services.AddAuthorization();
 
