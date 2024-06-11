@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1rem 0rem 1rem;
+  align-items: center;
+}
+
+.logoDiv {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.webLogo {
+  width: 140px;
+  height: 100px;
+}
+
+@media (max-width: 450px) {
+  .header {
+    padding: 0rem;
+  }
+
+  .webLogo {
+    width: 100px;  
+    height: 70px;
+  }
+}

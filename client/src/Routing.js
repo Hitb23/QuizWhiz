@@ -10,7 +10,7 @@ const Routing = () => {
       <Routes>
         <Route exact path="/" element={<WelcomePage />} />
         <Route exact path="/login" element={<LoginPage />} />
-        <Route exact path="/signup" element={<SignUpPage />} />
+        <Route exact path="/sign-up" element={<SignUpPage />} />
       </Routes>
     </React.Fragment>
   );
