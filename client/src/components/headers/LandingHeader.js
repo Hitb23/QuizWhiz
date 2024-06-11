@@ -1,26 +1,30 @@
 import React from "react";
-import logo from "../assets/logo.svg";
+import { Logo } from "../../assets";
 import classes from "./LandingHeader.module.css";
 import { Link } from "react-router-dom";
 
 const LandingHeader = () => {
   return (
     <React.Fragment>
-      <div className={classes.header}>
+      <header className={classes.header}>
         <div className={classes.logoDiv}>
           <Link to="/">
             <img
               className={`img-responsive ${classes.webLogo}`}
-              src={logo}
+              src={Logo}
               alt="logo"
             />
           </Link>
         </div>
         <div className={classes.headerButtons}>
-          <button className={classes.signUpButton}>Sign Up</button>
-          <button className={classes.logInButton}>Log In</button>
+          <Link to="/sign-up">
+            <button className={classes.signUpButton}>Sign Up</button>
+          </Link>
+          <Link to="/login">
+            <button className={classes.logInButton}>Log In</button>
+          </Link>
         </div>
-      </div>
+      </header>
     </React.Fragment>
   );
 };
