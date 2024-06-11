@@ -4,10 +4,10 @@ import LandingHeader from '../components/LandingHeader';
 
 function WelcomePage() {
   return (
-    <>
+    <React.Fragment>
       <LandingHeader />
       <p className='text-primary'>Welcome</p>
-    </>
+    </React.Fragment>
   )
 }
 
