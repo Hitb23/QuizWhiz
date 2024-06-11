@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Users\\pct180\\QuizWhiz\\",
+  "WorkspaceRootPath": "D:\\Projects\\QuizWhiz\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|e:\\users\\pct180\\quizwhiz\\server\\controller\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|d:\\projects\\quizwhiz\\server\\controller\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|solutionrelative:server\\controller\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|e:\\users\\pct180\\quizwhiz\\server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|d:\\projects\\quizwhiz\\server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|solutionrelative:server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|e:\\users\\pct180\\quizwhiz\\server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|d:\\projects\\quizwhiz\\server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|solutionrelative:server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|e:\\users\\pct180\\quizwhiz\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|d:\\projects\\quizwhiz\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|e:\\users\\pct180\\quizwhiz\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|d:\\projects\\quizwhiz\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|solutionrelative:server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|e:\\users\\pct180\\quizwhiz\\server\\server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|d:\\projects\\quizwhiz\\server\\server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|solutionrelative:server\\server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
@@ -44,24 +44,23 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "E:\\Users\\pct180\\QuizWhiz\\server\\Properties\\launchSettings.json",
+              "DocumentMoniker": "D:\\Projects\\QuizWhiz\\server\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "server\\Properties\\launchSettings.json",
-              "ToolTip": "E:\\Users\\pct180\\QuizWhiz\\server\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Projects\\QuizWhiz\\server\\Properties\\launchSettings.json",
               "RelativeToolTip": "server\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-07T06:03:34.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T06:03:34.245Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TestController.cs",
-              "DocumentMoniker": "E:\\Users\\pct180\\QuizWhiz\\server\\Controller\\TestController.cs",
+              "DocumentMoniker": "D:\\Projects\\QuizWhiz\\server\\Controller\\TestController.cs",
               "RelativeDocumentMoniker": "server\\Controller\\TestController.cs",
-              "ToolTip": "E:\\Users\\pct180\\QuizWhiz\\server\\Controller\\TestController.cs",
+              "ToolTip": "D:\\Projects\\QuizWhiz\\server\\Controller\\TestController.cs",
               "RelativeToolTip": "server\\Controller\\TestController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T05:52:14.325Z",
               "EditorCaption": ""
@@ -70,52 +69,48 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "server.csproj",
-              "DocumentMoniker": "E:\\Users\\pct180\\QuizWhiz\\server\\server.csproj",
+              "DocumentMoniker": "D:\\Projects\\QuizWhiz\\server\\server.csproj",
               "RelativeDocumentMoniker": "server\\server.csproj",
-              "ToolTip": "E:\\Users\\pct180\\QuizWhiz\\server\\server.csproj",
+              "ToolTip": "D:\\Projects\\QuizWhiz\\server\\server.csproj",
               "RelativeToolTip": "server\\server.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-07T05:48:00.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T05:48:00.297Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Users\\pct180\\QuizWhiz\\server\\Program.cs",
+              "DocumentMoniker": "D:\\Projects\\QuizWhiz\\server\\Program.cs",
               "RelativeDocumentMoniker": "server\\Program.cs",
-              "ToolTip": "E:\\Users\\pct180\\QuizWhiz\\server\\Program.cs",
+              "ToolTip": "D:\\Projects\\QuizWhiz\\server\\Program.cs",
               "RelativeToolTip": "server\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T05:09:14.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T05:09:14.927Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\Users\\pct180\\QuizWhiz\\server\\appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\QuizWhiz\\server\\appsettings.json",
               "RelativeDocumentMoniker": "server\\appsettings.json",
-              "ToolTip": "E:\\Users\\pct180\\QuizWhiz\\server\\appsettings.json",
+              "ToolTip": "D:\\Projects\\QuizWhiz\\server\\appsettings.json",
               "RelativeToolTip": "server\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-07T05:09:10.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T05:09:10.111Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "server",
-              "DocumentMoniker": "E:\\Users\\pct180\\QuizWhiz\\server\\server.csproj",
+              "DocumentMoniker": "D:\\Projects\\QuizWhiz\\server\\server.csproj",
               "RelativeDocumentMoniker": "server\\server.csproj",
-              "ToolTip": "E:\\Users\\pct180\\QuizWhiz\\server\\server.csproj",
+              "ToolTip": "D:\\Projects\\QuizWhiz\\server\\server.csproj",
               "RelativeToolTip": "server\\server.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-07T05:08:41.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T05:08:41.32Z"
             }
           ]
         },
