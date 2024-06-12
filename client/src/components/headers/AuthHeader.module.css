@@ -5,11 +5,11 @@
   align-items: center;
 }
 
-.logoDiv {
+.logo-div {
   padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
-.webLogo {
+.web-logo {
   width: 140px;
   height: 100px;
 }
@@ -19,7 +19,7 @@
     padding: 0rem;
   }
 
-  .webLogo {
+  .web-logo {
     width: 100px;  
     height: 70px;
   }
