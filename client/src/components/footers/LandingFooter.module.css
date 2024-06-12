@@ -12,20 +12,20 @@
   overflow-y: auto;
 }
 
-.nameLink {
+.name-link {
   text-decoration: none;
   display: flex;
   padding: 1rem;
 }
 
-.companyName {
+.company-name {
   font-size: 30px;
   padding: 0rem 1rem 0rem 1rem;
   font-weight: bolder;
   color: #ED6744;
 }
 
-.socialMediaIcons {
+.social-media-icons {
   display: flex;
   column-gap: 2rem;
   justify-content: space-between;
@@ -33,7 +33,7 @@
   padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
-.socialMediaIcon {
+.social-media-icon {
   width: 36px;
   height: 36px;
   color: #465054;
@@ -45,22 +45,19 @@
     padding: 0rem;
   }
 
-  .companyName {
+  .company-name {
     font-size: 20px;
     padding: 0rem;
   }
 
-  .socialMediaIcons {
+  .social-media-icons {
     padding: 0.7rem 1rem 0.7rem 1rem;
     column-gap: 0.5rem;
   }
 }
 
 @media (max-width: 600px) {
-  .socialMediaIcons {
+  .social-media-icons {
     column-gap: 0.5rem;
   }
-}
-
-@media (max-width: 500px) {
 }

@@ -7,10 +7,10 @@ const SignUpPage = () => {
   return (
     <React.Fragment>
       <AuthHeader />
-      <main className={`${classes.mainComponent} container-fluid`}>
+      <main className={`${classes["main-component"]} container-fluid`}>
         <div className={`row justify-content-center`}>
           <div
-            className={`${classes.signUpTitle} col-xl-4 col-md-6 col-sm-8 col-10 text-center fw-bold`}
+            className={`${classes["sign-up-title"]} col-xl-4 col-md-6 col-sm-8 col-10 text-center fw-bold`}
           >
             Sign Up
           </div>
@@ -22,7 +22,7 @@ const SignUpPage = () => {
                 </label>
                 <input
                   type="email"
-                  className={`${classes.formInput} form-control form-control-md p-3`}
+                  className={`${classes["form-input"]} form-control form-control-md p-3`}
                   id="email"
                   placeholder="name@example.com"
                   autoComplete="off"
@@ -36,7 +36,7 @@ const SignUpPage = () => {
                 </label>
                 <input
                   type="password"
-                  className={`${classes.formInput} form-control form-control-md p-3`}
+                  className={`${classes["form-input"]} form-control form-control-md p-3`}
                   id="password"
                   placeholder="Password"
                 />
@@ -49,7 +49,7 @@ const SignUpPage = () => {
                 </label>
                 <input
                   type="password"
-                  className={`${classes.formInput} form-control form-control-md p-3`}
+                  className={`${classes["form-input"]} form-control form-control-md p-3`}
                   id="confirmpassword"
                   placeholder="Password"
                 />
@@ -57,7 +57,7 @@ const SignUpPage = () => {
             </div>
             <div className={`d-flex justify-content-center`}>
               <div className="col-xl-4 col-md-6 col-sm-8 col-10 pt-3 pb-3 d-flex justify-content-center">
-                <button className={classes.signUpButton}>Sign Up</button>
+                <button className={classes["sign-up-button"]}>Sign Up</button>
               </div>
             </div>
             <div className={`d-flex justify-content-center`}>
@@ -67,7 +67,7 @@ const SignUpPage = () => {
                 </div>
                 <Link to="/login">
                   <label
-                    className={`form-label fw-bold text-end text-decoration-none m-0 text-black pe-auto ${classes.signUpLabel}`}
+                    className={`form-label fw-bold text-end text-decoration-none m-0 text-black pe-auto ${classes["sign-up-label"]}`}
                   >
                     Log In
                   </label>

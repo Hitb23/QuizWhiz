@@ -7,10 +7,10 @@ const LoginPage = () => {
   return (
     <React.Fragment>
       <AuthHeader />
-      <main className={`${classes.mainComponent} container-fluid`}>
+      <main className={`${classes["main-component"]} container-fluid`}>
         <div className={`row justify-content-center`}>
           <div
-            className={`${classes.logInTitle} col-md-6 col-sm-8 col-10 text-center fw-bold`}
+            className={`${classes["log-in-title"]} col-md-6 col-sm-8 col-10 text-center fw-bold`}
           >
             Log In
           </div>
@@ -22,7 +22,7 @@ const LoginPage = () => {
                 </label>
                 <input
                   type="email"
-                  className={`${classes.formInput} form-control form-control-md p-3`}
+                  className={`${classes["form-input"]} form-control form-control-md p-3`}
                   id="email"
                   placeholder="name@example.com"
                   autoComplete="off"
@@ -36,7 +36,7 @@ const LoginPage = () => {
                 </label>
                 <input
                   type="password"
-                  className={`${classes.formInput} form-control form-control-md p-3`}
+                  className={`${classes["form-input"]} form-control form-control-md p-3`}
                   id="password"
                   placeholder="Password"
                 />
@@ -46,7 +46,7 @@ const LoginPage = () => {
               <div className="col-xl-4 col-md-6 col-sm-8 col-10 pt-3 pb-3 d-flex flex-row-reverse">
                 <Link to="/forgot-password">
                   <label
-                    className={`form-label fw-bold text-end text-decoration-none text-black pe-auto ${classes.forgotPasswordLabel}`}
+                    className={`form-label fw-bold text-end text-decoration-none text-black pe-auto ${classes["forgot-password-label"]}`}
                   >
                     Forgot Password?
                   </label>
@@ -55,7 +55,7 @@ const LoginPage = () => {
             </div>
             <div className={`d-flex justify-content-center`}>
               <div className="col-xl-4 col-md-6 col-sm-8 col-10 pt-3 pb-3 d-flex justify-content-center">
-                <button className={classes.logInButton}>Log In</button>
+                <button className={classes["log-in-button"]}>Log In</button>
               </div>
             </div>
             <div className={`d-flex justify-content-center`}>
@@ -65,7 +65,7 @@ const LoginPage = () => {
                 </div>
                 <Link to="/sign-up">
                   <label
-                    className={`form-label fw-bold text-end text-decoration-none m-0 text-black pe-auto ${classes.logInLabel}`}
+                    className={`form-label fw-bold text-end text-decoration-none m-0 text-black pe-auto ${classes["log-in-label"]}`}
                   >
                     Sign Up
                   </label>

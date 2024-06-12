@@ -11,21 +11,21 @@ function WelcomePage() {
   return (
     <React.Fragment>
       <LandingHeader />
-      <main className={classes.mainComponent}>
-        <div className={classes.welcomeMessage}>
-          <div className={classes.welcomeTitle}>Welcome To QuizWhiz</div>
-          <div className={classes.welcomeSlogan}>
+      <main className={classes["main-component"]}>
+        <div className={classes["welcome-message"]}>
+          <div className={classes["welcome-title"]}>Welcome To QuizWhiz</div>
+          <div className={classes["welcome-slogan"]}>
             Where Every Game is a Brain Boost!
           </div>
         </div>
-        <div className={classes.poster}>
+        <div className={classes["poster"]}>
           <img
-            className={`img-responsive ${classes.posterImg}`}
+            className={`img-responsive ${classes["poster-img"]}`}
             src={WelcomePoster}
             alt="logo"
           />
           <Link to="">
-            <button className={classes.getStartedButton}>Get Started</button>
+            <button className={classes["get-started-button"]}>Get Started</button>
           </Link>
         </div>
       </main>
