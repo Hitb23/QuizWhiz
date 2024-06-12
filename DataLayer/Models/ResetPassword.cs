@@ -24,7 +24,7 @@ namespace server.DataLayer.Models
         public DateTime TokenExpiry { get; set; }
 
         [Required]
-        public bool IsResetSuccess { get; set; }
+        public bool IsResetSuccess { get; set; } = false;
 
         // Navigation properties
         public User User { get; set; }

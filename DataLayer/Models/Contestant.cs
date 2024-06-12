@@ -17,13 +17,13 @@ namespace server.DataLayer.Models
         [Required]
         public int UserId { get; set; }
 
-        [Required]
+        
         [MaxLength(50)]
-        public string FirstName { get; set; }
+        public string? FirstName { get; set; }
 
-        [Required]
+        
         [MaxLength(50)]
-        public string LastName { get; set; }
+        public string? LastName { get; set; }
 
         [Required]
         [EmailAddress]
@@ -32,33 +32,33 @@ namespace server.DataLayer.Models
 
         [Phone]
         [MaxLength(20)]
-        public string PhoneNumber { get; set; }
+        public string? PhoneNumber { get; set; }
 
         [MaxLength(50)]
-        public string Profession { get; set; }
+        public string? Profession { get; set; }
 
         [MaxLength(50)]
-        public string State { get; set; }
+        public string? State { get; set; }
 
         [MaxLength(50)]
-        public string Country { get; set; }
+        public string? Country { get; set; }
 
         [Required]
         public DateTime CreatedDate { get; set; }
 
         [Required]
-        public DateTime ModifiedDate { get; set; }
+        public DateTime? ModifiedDate { get; set; }
 
         [Required]
         [MaxLength(50)]
-        public string Status { get; set; }
+        public string Status { get; set; } = "active";
 
-        [Required]
+        
         [MaxLength(10)]
-        public string NameAbbreviation { get; set; }
+        public string? NameAbbreviation { get; set; }
 
         [Required]
-        public bool IsNotificationEnabled { get; set; }
+        public bool IsNotificationEnabled { get; set; } = false;
 
         // Navigation properties
        

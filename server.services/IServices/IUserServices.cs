@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using server.DataLayer.DTO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +10,6 @@ namespace server.repository.IRepository
 {
     public interface IUserServices
     {
+        Task<IActionResult> Register(UserDto newUser);
     }
 }

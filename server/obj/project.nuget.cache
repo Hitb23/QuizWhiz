@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4oA1Qn5tmnGPqX9kMTMeOU6eD9LkKwEphUrPMUoFm3oN4SaSrdD9rRa02dMd7u2uQVlLnLoQAbRUoE5tZsWHQg==",
+  "dgSpecHash": "ovcrSxKMX3arqWyEPFGT7riyeNBaPS5mZ7DhT/HLVKbnDilb8mZ7G3zufx3Mnvgc/63mfA2EIm/BenR2Bb9lvw==",
   "success": true,
   "projectFilePath": "D:\\QuizWhiz\\QuizWhiz\\server\\server.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,8 @@
     "C:\\Users\\pct180\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.6\\microsoft.aspnetcore.authentication.jwtbearer.8.0.6.nupkg.sha512",
     "C:\\Users\\pct180\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "C:\\Users\\pct180\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.2.0\\microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
+    "C:\\Users\\pct180\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.6\\microsoft.aspnetcore.cryptography.internal.8.0.6.nupkg.sha512",
+    "C:\\Users\\pct180\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.6\\microsoft.aspnetcore.cryptography.keyderivation.8.0.6.nupkg.sha512",
     "C:\\Users\\pct180\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\pct180\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\pct180\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.0\\microsoft.aspnetcore.http.2.2.0.nupkg.sha512",

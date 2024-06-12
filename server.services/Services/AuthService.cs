@@ -14,18 +14,20 @@ namespace server.services.Services
     {
         private readonly IUserRepository _userRepository;
         private readonly JwtHelper _jwtHelper;
+        private readonly HashingHelper _hashingHelper;
 
-        public AuthService(IUserRepository userRepository, JwtHelper jwtHelper)
+        public AuthService(IUserRepository userRepository, JwtHelper jwtHelper, HashingHelper hashingHelper)
         {
             _userRepository = userRepository;
             _jwtHelper = jwtHelper;
+            _hashingHelper = hashingHelper;
         }
 
         public async Task<string> AuthenticateUserAsync(LoginDTO loginCredential)
         {
             var user = await _userRepository.GetUserByEmailAndPasswordAsync(loginCredential.Email, loginCredential.Password);
 
-            if (user == null)
+            if (user == null || !_hashingHelper.VerifyPassword(loginCredential.Password, user.PasswordHash))
             {
                 return null;
             }

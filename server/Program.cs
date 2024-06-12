@@ -9,11 +9,19 @@ using server.services.Services;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IAuthRepository,AuthRepository>();
+
+builder.Services.AddScoped<IUserServices, UserServices>();
+builder.Services.AddScoped<IUserRepository,UserRepository>();
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
@@ -29,12 +37,17 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
         };
     });
-builder.Services.AddScoped<server.DataLayer.Helpers.JwtHelper>();
-builder.Services.AddScoped<IUserServices, UserServices>();
-builder.Services.AddScoped(typeof(IUserRepository), typeof(UserRepository));
 
-builder.Services.AddScoped<IAuthService, AuthService>();
-builder.Services.AddScoped(typeof(IAuthRepository), typeof(AuthRepository));
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+            options.UseNpgsql(builder.Configuration.GetConnectionString("defaultString")));
+
+
+
+
+
+builder.Services.AddScoped<server.DataLayer.Helpers.HashingHelper>();
+builder.Services.AddScoped<server.DataLayer.Helpers.JwtHelper>();
+
 
 builder.Services.AddCors(options =>
 {
@@ -53,8 +66,7 @@ builder.Services.AddControllers()
            options.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore; // Optional: Ignore null values
        });
 
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseNpgsql(builder.Configuration.GetConnectionString("defaultString")));
+
 // Add authorization services
 builder.Services.AddAuthorization();
 
