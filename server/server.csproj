@@ -29,8 +29,4 @@
     <ProjectReference Include="..\server.services\server.services.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Helpers\" />
-  </ItemGroup>
-
 </Project>

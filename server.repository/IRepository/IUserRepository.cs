@@ -11,5 +11,8 @@ namespace server.repository.IRepository
     {
         Task<User> GetUserByEmailAndPasswordAsync(string email, string password);
 
+        Task<bool> IsEmailTaken(string email);
+        Task<User> RegisterUser(User user);
+        Task<Contestant> AddContestant(Contestant contestant);
     }
 }

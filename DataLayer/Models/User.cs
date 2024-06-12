@@ -28,23 +28,23 @@ namespace server.DataLayer.Models
 
         [Phone]
         [MaxLength(20)]
-        public string PhoneNumber { get; set; }
+        public string? PhoneNumber { get; set; }
 
         [Required]
         public DateTime CreatedDate { get; set; }
 
-        [Required]
-        public DateTime ModifiedDate { get; set; }
+       
+        public DateTime? ModifiedDate { get; set; }
 
         [Required]
-        public bool IsDeleted { get; set; }
+        public bool IsDeleted { get; set; } = false;
 
         [Required]
-        public bool IsAdmin { get; set; }
+        public bool IsAdmin { get; set; } =false;
 
         // Foreign key
         [ForeignKey("RoleId")]
-        public int RoleId { get; set; }
+        public int RoleId { get; set; } = 2;
 
         // Navigation properties
       
