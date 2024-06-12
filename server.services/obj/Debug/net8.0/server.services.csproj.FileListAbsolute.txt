@@ -11,8 +11,8 @@ D:\QuizWhiz\QuizWhiz\server.services\obj\Debug\net8.0\server.services.AssemblyIn
 D:\QuizWhiz\QuizWhiz\server.services\obj\Debug\net8.0\server.services.AssemblyInfo.cs
 D:\QuizWhiz\QuizWhiz\server.services\obj\Debug\net8.0\server.services.csproj.CoreCompileInputs.cache
 D:\QuizWhiz\QuizWhiz\server.services\obj\Debug\net8.0\server.services.sourcelink.json
-D:\QuizWhiz\QuizWhiz\server.services\obj\Debug\net8.0\server.s.8E700EAD.Up2Date
 D:\QuizWhiz\QuizWhiz\server.services\obj\Debug\net8.0\server.services.dll
 D:\QuizWhiz\QuizWhiz\server.services\obj\Debug\net8.0\refint\server.services.dll
 D:\QuizWhiz\QuizWhiz\server.services\obj\Debug\net8.0\server.services.pdb
 D:\QuizWhiz\QuizWhiz\server.services\obj\Debug\net8.0\ref\server.services.dll
+D:\QuizWhiz\QuizWhiz\server.services\obj\Debug\net8.0\server.services.csproj.CopyComplete

@@ -1,13 +1,14 @@
 import React from "react";
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route } from "react-router-dom";
 import WelcomePage from "./pages/WelcomePage";
 import LoginPage from "./pages/LoginPage";
 import SignUpPage from "./pages/SignUpPage";
 import ForgotPasswordPage from "./pages/ForgotPasswordPage";
 import ResetPasswordPage from "./pages/ResetPasswordPage";
+import UserDashboard from "./pages/UserDashboard";
 
 const Routing = () => {
-  return(
+  return (
     <React.Fragment>
       <Routes>
         <Route exact path="/" element={<WelcomePage />} />
@@ -15,9 +16,10 @@ const Routing = () => {
         <Route exact path="/sign-up" element={<SignUpPage />} />
         <Route exact path="/forgot-password" element={<ForgotPasswordPage />} />
         <Route exact path="/reset-password" element={<ResetPasswordPage />} />
+        <Route exact path="/dashboard" element={<UserDashboard />} />
       </Routes>
     </React.Fragment>
   );
-}
+};
 
 export default Routing;
