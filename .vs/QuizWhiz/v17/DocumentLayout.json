@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\QuizWhiz\\QuizWhiz\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|d:\\quizwhiz\\quizwhiz\\server\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|solutionrelative:server\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A753F6D0-B5BA-4C64-9786-E86E1802996C}|server.repository\\server.repository.csproj|d:\\quizwhiz\\quizwhiz\\server.repository\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A753F6D0-B5BA-4C64-9786-E86E1802996C}|server.repository\\server.repository.csproj|solutionrelative:server.repository\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{409F09EA-48EF-44B5-A570-6BBEA5312AB6}|server.services\\server.services.csproj|d:\\quizwhiz\\quizwhiz\\server.services\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{409F09EA-48EF-44B5-A570-6BBEA5312AB6}|server.services\\server.services.csproj|solutionrelative:server.services\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|d:\\quizwhiz\\quizwhiz\\server\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|solutionrelative:server\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{409F09EA-48EF-44B5-A570-6BBEA5312AB6}|server.services\\server.services.csproj|d:\\quizwhiz\\quizwhiz\\server.services\\iservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -118,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -134,12 +134,11 @@
               "RelativeToolTip": "server.repository\\IRepository\\IAuthRepository.cs",
               "ViewState": "AQIAAAIAAADgzMzMzMwYwAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T17:04:19.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T17:04:19.975Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AuthService.cs",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\server.services\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "server.services\\Services\\AuthService.cs",
@@ -147,8 +146,7 @@
               "RelativeToolTip": "server.services\\Services\\AuthService.cs",
               "ViewState": "AQIAABUAAACA/v///38WwBgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T17:03:36.175Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T17:03:36.175Z"
             },
             {
               "$type": "Document",
@@ -160,18 +158,17 @@
               "RelativeToolTip": "server.services\\IServices\\IAuthService.cs",
               "ViewState": "AQIAAAIAAABQMzMzMzMrwAsAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T17:02:59.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T17:02:59.116Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\server\\Controller\\AuthController.cs",
               "RelativeDocumentMoniker": "server\\Controller\\AuthController.cs",
               "ToolTip": "D:\\QuizWhiz\\QuizWhiz\\server\\Controller\\AuthController.cs",
               "RelativeToolTip": "server\\Controller\\AuthController.cs",
-              "ViewState": "AQIAAA4AAACAZGZmZmYBwBsAAAAIAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T11:37:40.259Z",
               "EditorCaption": ""
@@ -186,8 +183,7 @@
               "RelativeToolTip": "server\\Program.cs",
               "ViewState": "AQIAAGQAAAAAmpmZmVkqwAMAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T05:09:14.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T05:09:14.927Z"
             },
             {
               "$type": "Document",
@@ -199,25 +195,24 @@
               "RelativeToolTip": "server.repository\\IRepository\\IUserRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T10:12:10.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T10:12:10.199Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\server.repository\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "server.repository\\Repository\\UserRepository.cs",
               "ToolTip": "D:\\QuizWhiz\\QuizWhiz\\server.repository\\Repository\\UserRepository.cs",
               "RelativeToolTip": "server.repository\\Repository\\UserRepository.cs",
-              "ViewState": "AQIAABUAAABAMzMzM7MlwCMAAAARAAAA",
+              "ViewState": "AQIAAA0AAACgmZmZmdkzwBIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T10:12:34.507Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\DataLayer\\DTO\\LoginDTO.cs",
               "RelativeDocumentMoniker": "DataLayer\\DTO\\LoginDTO.cs",
@@ -225,8 +220,7 @@
               "RelativeToolTip": "DataLayer\\DTO\\LoginDTO.cs",
               "ViewState": "AQIAAAkAAADg/v///z8rwAgAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T11:38:48.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T11:38:48.251Z"
             },
             {
               "$type": "Document",
@@ -238,8 +232,7 @@
               "RelativeToolTip": "DataLayer\\Helpers\\JwtHelper.cs",
               "ViewState": "AQIAAA8AAADAzMzMzMwFwBQAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T17:18:22.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T17:18:22.553Z"
             },
             {
               "$type": "Document",
@@ -251,8 +244,7 @@
               "RelativeToolTip": "server.repository\\Repository\\AuthRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T17:04:55.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T17:04:55.256Z"
             },
             {
               "$type": "Document",
