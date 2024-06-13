@@ -5,13 +5,16 @@ using server.DataLayer.Helpers;
 using server.DataLayer.Models;
 using server.repository.IRepository;
 using server.repository.Repository;
+using server.Auth;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace server.Controller
 {
+
     [Route("api/[controller]")]
     [ApiController]
+   
     public class UserController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
@@ -26,7 +29,7 @@ namespace server.Controller
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] UserDto newUser)
+        public async Task<IActionResult> Register([FromBody] UserDTO newUser)
         {           
             if (!ModelState.IsValid)
             {

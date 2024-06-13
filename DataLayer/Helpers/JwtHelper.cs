@@ -13,7 +13,7 @@ namespace server.DataLayer.Helpers
     public class JwtHelper
     {
         private readonly IConfiguration _configuration;
-
+      
         public JwtHelper(IConfiguration configuration)
         {
             _configuration = configuration;
@@ -39,5 +39,7 @@ namespace server.DataLayer.Helpers
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
+
+        
     }
 }

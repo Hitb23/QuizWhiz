@@ -10,6 +10,6 @@ namespace server.repository.IRepository
 {
     public interface IUserServices
     {
-        Task<IActionResult> Register(UserDto newUser);
+        Task<IActionResult> Register(UserDTO newUser);
     }
 }

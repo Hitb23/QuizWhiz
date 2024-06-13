@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace server.DataLayer.DTO
 {
-    public class UserDto
+    public class UserDTO
     {
         [Required(ErrorMessage = "Email is required")]
         [RegularExpression("^[a-zA-Z0-9_\\.-]+@([a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,6}$", ErrorMessage = "Please Provide Valid Email")]
@@ -16,7 +16,7 @@ namespace server.DataLayer.DTO
         public string Email { get; set; }
 
         [Column(TypeName = "character varying")]
-        [RegularExpression(@"^(?=.*[A-Z])(?=.*\d)(?=.*[a-z])(?=.*\W).{7,15}$", ErrorMessage = "Please enter strong password")]
+        [RegularExpression(@"^(?=.*[A-Z])(?=.*\d)(?=.*[a-z])(?=.*\W).{8,15}$", ErrorMessage = "Please enter strong password")]
         public string Password { get; set; }
 
         [Column(TypeName = "character varying")]

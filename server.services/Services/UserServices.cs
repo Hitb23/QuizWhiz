@@ -21,7 +21,7 @@ namespace server.repository.Repository
             _userRepository = userRepository;
             _hashingHelper = hashingHelper;
         }
-        public async Task<IActionResult> Register(UserDto newUser)
+        public async Task<IActionResult> Register(UserDTO newUser)
         {
             try
             {
