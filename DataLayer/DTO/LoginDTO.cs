@@ -16,7 +16,7 @@ namespace server.DataLayer.DTO
         public string Email { get; set; }
 
         [Column(TypeName = "character varying")]
-        [RegularExpression(@"^(?=.*[A-Z])(?=.*\d)(?=.*[a-z])(?=.*\W).{7,15}$", ErrorMessage = "Please enter strong password")]
+        [RegularExpression(@"^(?=.*[A-Z])(?=.*\d)(?=.*[a-z])(?=.*\W).{8,15}$", ErrorMessage = "Please enter strong password")]
         public string Password { get; set; }
         
     }
