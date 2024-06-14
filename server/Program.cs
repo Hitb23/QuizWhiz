@@ -92,7 +92,7 @@ else
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
-
+app.UseCors("AllowReactApp");
 // Use authentication and authorization middlewares
 app.UseAuthentication();
 app.UseAuthorization();
