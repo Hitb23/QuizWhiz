@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|solutionrelative:server\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|d:\\quizwhiz\\quizwhiz\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AC5B46BE-20F2-44FD-987E-FABC789E79D6}|DataLayer\\server.DataLayer.csproj|d:\\quizwhiz\\quizwhiz\\datalayer\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC5B46BE-20F2-44FD-987E-FABC789E79D6}|DataLayer\\server.DataLayer.csproj|solutionrelative:datalayer\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AC5B46BE-20F2-44FD-987E-FABC789E79D6}|DataLayer\\server.DataLayer.csproj|d:\\quizwhiz\\quizwhiz\\datalayer\\datacontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC5B46BE-20F2-44FD-987E-FABC789E79D6}|DataLayer\\server.DataLayer.csproj|solutionrelative:datalayer\\datacontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|d:\\quizwhiz\\quizwhiz\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB6AC376-3151-4999-B477-E571C50FFD5F}|server\\server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{409F09EA-48EF-44B5-A570-6BBEA5312AB6}|server.services\\server.services.csproj|d:\\quizwhiz\\quizwhiz\\server.services\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -122,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\server.repository\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "server.repository\\Repository\\UserRepository.cs",
@@ -130,12 +130,11 @@
               "RelativeToolTip": "server.repository\\Repository\\UserRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAiwBcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T08:34:38.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T08:34:38.973Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\server\\Program.cs",
               "RelativeDocumentMoniker": "server\\Program.cs",
@@ -238,14 +237,14 @@
               "RelativeDocumentMoniker": "server\\Controller\\AuthController.cs",
               "ToolTip": "D:\\QuizWhiz\\QuizWhiz\\server\\Controller\\AuthController.cs",
               "RelativeToolTip": "server\\Controller\\AuthController.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwCkAAAAJAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T06:41:05.858Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\DataLayer\\DataContext\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "DataLayer\\DataContext\\ApplicationDbContext.cs",
@@ -253,12 +252,11 @@
               "RelativeToolTip": "DataLayer\\DataContext\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T04:37:58.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T04:37:58.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "JwtHelper.cs",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\DataLayer\\Helpers\\JwtHelper.cs",
               "RelativeDocumentMoniker": "DataLayer\\Helpers\\JwtHelper.cs",
@@ -266,12 +264,11 @@
               "RelativeToolTip": "DataLayer\\Helpers\\JwtHelper.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAqwBMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T08:31:48.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T08:31:48.075Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "D:\\QuizWhiz\\QuizWhiz\\DataLayer\\DTO\\LoginDTO.cs",
               "RelativeDocumentMoniker": "DataLayer\\DTO\\LoginDTO.cs",
@@ -279,8 +276,7 @@
               "RelativeToolTip": "DataLayer\\DTO\\LoginDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T08:22:53.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T08:22:53.079Z"
             },
             {
               "$type": "Document",
@@ -316,8 +312,7 @@
               "RelativeToolTip": "server.services\\Services\\UserServices.cs",
               "ViewState": "AQIAACoAAAAAAAAAAADwvysAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T09:10:31.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T09:10:31.052Z"
             },
             {
               "$type": "Document",
