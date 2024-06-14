@@ -13,6 +13,6 @@ namespace server.repository.IRepository
 
         Task<bool> IsEmailTaken(string email);
         Task<User> RegisterUser(User user);
-      
+        Task<User> IsValidUserName(string userName);
     }
 }

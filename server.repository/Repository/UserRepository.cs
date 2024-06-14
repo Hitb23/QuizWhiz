@@ -23,8 +23,18 @@ namespace server.repository.Repository
             
         }
 
-      
-
+        public async Task<User> IsValidUserName(string userName)
+        {
+            try
+            {
+                var user = await _context.Users.FirstOrDefaultAsync(r => r.Username == userName);
+                return user;
+            }
+            catch (Exception exp)
+            {
+                return null;
+            }
+        }
         public async Task<User> GetUserByEmailAndPasswordAsync(string email, string password)
         {
             try
