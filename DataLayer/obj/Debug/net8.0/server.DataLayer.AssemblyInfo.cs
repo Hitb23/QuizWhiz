@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("server.DataLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d8c775732bdb5bc026103239a8566f40a9dee17")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70f16692fcf2d1833d346c761c0915b915d16a97")]
 [assembly: System.Reflection.AssemblyProductAttribute("server.DataLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("server.DataLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
