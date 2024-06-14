@@ -16,42 +16,66 @@ namespace server.DataLayer.Models
 
         [Required]
         [MaxLength(50)]
-        public string Username { get; set; }
+        public required string Username { get; set; }
 
         [Required]
-        public string PasswordHash { get; set; }
+        public required string PasswordHash { get; set; }
 
         [Required]
         [EmailAddress]
         [MaxLength(100)]
-        public string Email { get; set; }
+        public required string Email { get; set; }
+
+
+        [MaxLength(50)]
+        public string FirstName { get; set; } = string.Empty;
+
+
+        [MaxLength(50)]
+        public string LastName { get; set; } = string.Empty;
 
         [Phone]
         [MaxLength(20)]
-        public string? PhoneNumber { get; set; }
+        public string PhoneNumber { get; set; } = string.Empty;
+
+        [MaxLength(50)]
+        public string Country { get; set; } = string.Empty;
 
         [Required]
-        public DateTime CreatedDate { get; set; }
+        [MaxLength(50)]
+        public string Status { get; set; } = "active";
 
-       
-        public DateTime? ModifiedDate { get; set; }
+        [MaxLength(10)]
+        public string NameAbbreviation { get; set; } = string.Empty;
+
+        [Required]
+        public bool IsNotificationEnabled { get; set; } = false;
+
+        [Required]
+        public required DateTime CreatedDate { get; set; }
+
+
+        public DateTime? ModifiedDate { get; set; } 
+
+
+        public string ResetToken { get; set; } = string.Empty;
+
+
+        public DateTime? ResetTokenExpiry { get; set; }
+
 
         [Required]
         public bool IsDeleted { get; set; } = false;
 
-        [Required]
-        public bool IsAdmin { get; set; } =false;
 
         // Foreign key
         [ForeignKey("RoleId")]
         public int RoleId { get; set; } = 2;
 
         // Navigation properties
-      
+
         public UserRole Role { get; set; }
 
-        public ICollection<ResetPassword> ResetPasswords { get; set; }
-        public Contestant Contestant { get; set; }
-        public Admin Admin { get; set; }
+
     }
 }
