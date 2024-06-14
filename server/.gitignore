@@ -1,5 +1,9 @@
 .vs/
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> d33d57bec1f710c5a216bc861cade897c034929f
 DataLayer/obj/
 server.repository/obj/
 server.services/obj/
