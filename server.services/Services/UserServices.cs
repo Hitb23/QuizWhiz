@@ -34,6 +34,7 @@ namespace server.repository.Repository
 
                 var user = new User
                 {
+                  
                     Email = newUser.Email,
                     Username = newUser.Email.Substring(0, newUser.Email.IndexOf('@')),
                     PasswordHash = hashedPassword,
@@ -42,16 +43,10 @@ namespace server.repository.Repository
 
                 var registeredUser = await _userRepository.RegisterUser(user);
 
-                var contestant = new Contestant
-                {
-                    UserId = registeredUser.UserId,
-                    Email = registeredUser.Email,
-                   CreatedDate = DateTime.UtcNow,
-                   ModifiedDate = DateTime.UtcNow
-                };
+                
 
                 // Example of further logic with contestant, if needed
-               var AddedContestant =await _userRepository.AddContestant(contestant);
+              
 
                 return new OkObjectResult(new { message = "Registration successful." });
             }

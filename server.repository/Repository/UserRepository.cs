@@ -30,8 +30,8 @@ namespace server.repository.Repository
             try
             {
                 var user = await _context.Users
-                    .Where(u => u.Email == email)
                     .Include(u => u.Role)
+                    .Where(u => u.Email == email)                  
                     .FirstOrDefaultAsync();
 
                 if(user != null ) 
@@ -62,11 +62,6 @@ namespace server.repository.Repository
             return user;
         }
 
-        public async Task<Contestant> AddContestant(Contestant contestant)
-        {
-           _context.Contestants.Add(contestant);
-            await _context.SaveChangesAsync();
-            return contestant;
-        }
+      
     }
 }

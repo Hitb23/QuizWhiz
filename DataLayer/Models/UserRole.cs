@@ -14,7 +14,7 @@ namespace server.DataLayer.Models
 
         [Required]
         [MaxLength(50)]
-        public string RoleName { get; set; }
+        public required string RoleName { get; set; } 
 
         // Navigation properties
         public ICollection<User> Users { get; set; }
