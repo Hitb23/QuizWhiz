@@ -1,1 +1,6 @@
 .vs/
+
+DataLayer/obj/
+server.repository/obj/
+server.services/obj/
+server/obj/
