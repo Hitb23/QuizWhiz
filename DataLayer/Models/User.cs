@@ -52,15 +52,16 @@ namespace server.DataLayer.Models
         public bool IsNotificationEnabled { get; set; } = false;
 
         [Required]
+        [Column(TypeName = "timestamp without time zone")]
         public required DateTime CreatedDate { get; set; }
 
-
+        [Column(TypeName = "timestamp without time zone")]
         public DateTime? ModifiedDate { get; set; } 
 
 
         public string ResetToken { get; set; } = string.Empty;
 
-
+        [Column(TypeName = "timestamp without time zone")]
         public DateTime? ResetTokenExpiry { get; set; }
 
 

@@ -35,14 +35,14 @@ namespace server.repository.Repository
                 return null;
             }
         }
-        public async Task<User> GetUserByEmailAndPasswordAsync(string email, string password)
+        public User GetUserByEmail(string email)
         {
             try
             {
-                var user = await _context.Users
+                var user =  _context.Users
                     .Include(u => u.Role)
                     .Where(u => u.Email == email)                  
-                    .FirstOrDefaultAsync();
+                    .FirstOrDefault();
 
                 if(user != null ) 
                 {
@@ -71,7 +71,42 @@ namespace server.repository.Repository
             await _context.SaveChangesAsync();
             return user;
         }
+        public void UpdateUser(User user)
+        {
+            try
+            {
+                _context.Users.Update(user);
+                _context.SaveChanges();
+            }
+            catch(Exception ex) 
+            {
+                throw new Exception("Failed to save", ex);
+            }
+            
+        }
+       public User GetUserById(int id)
+        {
+            try
+            {
+                var user = _context.Users     
+                    .Where(u => u.UserId == id)
+                    .FirstOrDefault();
 
-      
+                if (user != null)
+                {
+                    return user;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                return null;
+            }
+
+        }
     }
 }

@@ -9,5 +9,6 @@ namespace server.repository.IRepository
 {
     public interface IAuthRepository
     {
+       
     }
 }
