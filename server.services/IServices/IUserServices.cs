@@ -11,5 +11,6 @@ namespace server.repository.IRepository
     public interface IUserServices
     {
         Task<IActionResult> Register(UserDTO newUser);
+        Task<bool> checkUserName(string userName);
     }
 }

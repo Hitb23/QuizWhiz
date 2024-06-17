@@ -58,5 +58,18 @@ namespace server.repository.Repository
                 };
             }
         }
+
+        public async Task<bool> checkUserName(string userName)
+        {
+            try
+            {
+                var user = _userRepository.IsValidUserName(userName);
+                return user.Result == null;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
     }
 }
