@@ -16,6 +16,5 @@ namespace server.Controller
         {
             return Ok(new {message="hello from contestant controller"});
         }
-        
     }
 }

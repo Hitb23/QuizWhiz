@@ -34,7 +34,7 @@ namespace server.services.Services
                 return null;
             }
 
-            return _jwtHelper.GenerateJwtToken(user.Email, user.PasswordHash,user.Role.RoleName);
+            return _jwtHelper.GenerateJwtToken(user.Email, user.PasswordHash,user.Role.RoleName, user.Username);
         }
 
         public bool SendPasswordResetLink(string email)
