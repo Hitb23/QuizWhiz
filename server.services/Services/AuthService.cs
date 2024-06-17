@@ -15,17 +15,19 @@ namespace server.services.Services
         private readonly IUserRepository _userRepository;
         private readonly JwtHelper _jwtHelper;
         private readonly HashingHelper _hashingHelper;
+        private readonly EmailSenderHelper _emailSenderHelper;
 
-        public AuthService(IUserRepository userRepository, JwtHelper jwtHelper, HashingHelper hashingHelper)
+        public AuthService(IUserRepository userRepository, JwtHelper jwtHelper, HashingHelper hashingHelper, EmailSenderHelper emailSenderHelper)
         {
             _userRepository = userRepository;
             _jwtHelper = jwtHelper;
             _hashingHelper = hashingHelper;
+            _emailSenderHelper = emailSenderHelper;
         }
 
         public async Task<string> AuthenticateUserAsync(LoginDTO loginCredential)
         {
-            var user = await _userRepository.GetUserByEmailAndPasswordAsync(loginCredential.Email, loginCredential.Password);
+            var user = _userRepository.GetUserByEmail(loginCredential.Email);
 
             if (user == null || !_hashingHelper.VerifyPassword(loginCredential.Password, user.PasswordHash))
             {
@@ -33,6 +35,30 @@ namespace server.services.Services
             }
 
             return _jwtHelper.GenerateJwtToken(user.Email, user.PasswordHash,user.Role.RoleName);
+        }
+
+        public bool SendPasswordResetLink(string email)
+        {
+            var user = _userRepository.GetUserByEmail(email); 
+            if (user == null)
+            {
+                throw new Exception("User not found");
+            }
+
+            // Create a token with user ID and a unique identifier
+            var token = Convert.ToBase64String(Encoding.UTF8.GetBytes($"{user.UserId}:{Guid.NewGuid()}"));
+            user.ResetToken = token;
+            user.ResetTokenExpiry = DateTime.Now.AddHours(1);
+
+            _userRepository.UpdateUser(user);
+
+            var clientUrl = "http://localhost:5173";
+            // Send email
+            var resetLink = $"{clientUrl}/reset-password?token={token}";
+            var subject = "Reset Password";
+            var body = $"Click here to reset your password: {resetLink}";
+            var isSent = _emailSenderHelper.SendEmail(user.Email, subject, body);
+            return isSent;
         }
     }
 }

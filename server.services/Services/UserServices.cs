@@ -71,5 +71,67 @@ namespace server.repository.Repository
                 return false;
             }
         }
+        public bool ValidateResetToken(string token)
+        {
+            try
+            {
+                var decodedToken = Encoding.UTF8.GetString(Convert.FromBase64String(token));
+                var parts = decodedToken.Split(':');
+                if (parts.Length != 2)
+                {
+                    return false;
+                }
+
+                var userId = parts[0];
+                var user = _userRepository.GetUserById(int.Parse(userId));
+                if (user == null || user.ResetToken != token || user.ResetTokenExpiry < DateTime.Now)
+                {
+                    return false;
+                }
+
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+        public bool ResetPassword(string token, string newPassword)
+        {
+            try
+            {
+                var decodedToken = Encoding.UTF8.GetString(Convert.FromBase64String(token));
+                var parts = decodedToken.Split(':');
+                if (parts.Length != 2)
+                {
+                    throw new Exception("Invalid link");
+                }
+
+                var userId = parts[0];
+                var user = _userRepository.GetUserById(int.Parse(userId));
+                if (user == null || user.ResetToken != token || user.ResetTokenExpiry < DateTime.Now)
+                {
+                    throw new Exception("Invalid or expired link");
+                }
+
+               
+                var UpdatedPassword = _hashingHelper.HashPassword(newPassword);
+
+                user.PasswordHash = UpdatedPassword;
+                user.ResetToken = String.Empty;
+                user.ResetTokenExpiry = null;
+                user.ModifiedDate  = DateTime.Now;
+                _userRepository.UpdateUser(user);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                // Log exception (optional)
+                throw new Exception("Failed to reset password", ex);
+            }
+        }
+
+       
+
     }
 }
