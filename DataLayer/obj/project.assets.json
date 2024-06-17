@@ -2071,11 +2071,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pce100\\Desktop\\Tatvasoft\\Quizwhiz\\QuizWhiz\\DataLayer\\server.DataLayer.csproj",
+      "projectUniqueName": "D:\\QuizWhiz\\QuizWhiz\\QuizWhiz\\DataLayer\\server.DataLayer.csproj",
       "projectName": "server.DataLayer",
-      "projectPath": "C:\\Users\\pce100\\Desktop\\Tatvasoft\\Quizwhiz\\QuizWhiz\\DataLayer\\server.DataLayer.csproj",
+      "projectPath": "D:\\QuizWhiz\\QuizWhiz\\QuizWhiz\\DataLayer\\server.DataLayer.csproj",
       "packagesPath": "C:\\Users\\pce100\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pce100\\Desktop\\Tatvasoft\\Quizwhiz\\QuizWhiz\\DataLayer\\obj\\",
+      "outputPath": "D:\\QuizWhiz\\QuizWhiz\\QuizWhiz\\DataLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pce100\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2098,11 +2098,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {

@@ -1,4 +1,5 @@
-﻿using server.DataLayer.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using server.DataLayer.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +10,14 @@ namespace server.repository.IRepository
 {
     public interface IUserRepository
     {
-        Task<User> GetUserByEmailAndPasswordAsync(string email, string password);
+        User GetUserByEmail(string email);
+        User GetUserById(int id);
 
         Task<bool> IsEmailTaken(string email);
         Task<User> RegisterUser(User user);
         Task<User> IsValidUserName(string userName);
+
+        public void UpdateUser(User user);
+      
     }
 }

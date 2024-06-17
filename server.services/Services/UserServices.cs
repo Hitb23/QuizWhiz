@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace server.repository.Repository
@@ -36,8 +37,9 @@ namespace server.repository.Repository
                 {
                   
                     Email = newUser.Email,
-                    Username = newUser.Email.Substring(0, newUser.Email.IndexOf('@')),
+                    Username = newUser.Username,
                     PasswordHash = hashedPassword,
+                    NameAbbreviation=newUser.Username.Substring(0,2),
                     CreatedDate = DateTime.UtcNow,
                 };
 
@@ -71,5 +73,75 @@ namespace server.repository.Repository
                 return false;
             }
         }
+        public bool ValidateResetToken(string token)
+        {
+            try
+            {
+                /*token = Regex.Replace(token, @"[^a-zA-Z0-9+/=]", string.Empty);
+
+                // Check for padding issues
+                if (token.Length % 4 != 0)
+                {
+                    int padding = 4 - (token.Length % 4);
+                    token = token.PadRight(token.Length + padding, '=');
+                }*/
+                var decodedToken = Encoding.UTF8.GetString(Convert.FromBase64String(token));
+                var parts = decodedToken.Split(':');
+                if (parts.Length != 2)
+                {
+                    return false;
+                }
+
+                var userId = parts[0];
+                var user = _userRepository.GetUserById(int.Parse(userId));
+                if (user == null || user.ResetToken != token || user.ResetTokenExpiry < DateTime.Now)
+                {
+                    return false;
+                }
+
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+        public bool ResetPassword(string token, string newPassword)
+        {
+            try
+            {
+                var decodedToken = Encoding.UTF8.GetString(Convert.FromBase64String(token));
+                var parts = decodedToken.Split(':');
+                if (parts.Length != 2)
+                {
+                    throw new Exception("Invalid link");
+                }
+
+                var userId = parts[0];
+                var user = _userRepository.GetUserById(int.Parse(userId));
+                if (user == null || user.ResetToken != token || user.ResetTokenExpiry < DateTime.Now)
+                {
+                    throw new Exception("Invalid or expired link");
+                }
+
+               
+                var UpdatedPassword = _hashingHelper.HashPassword(newPassword);
+
+                user.PasswordHash = UpdatedPassword;
+                user.ResetToken = String.Empty;
+                user.ResetTokenExpiry = null;
+                user.ModifiedDate  = DateTime.Now;
+                _userRepository.UpdateUser(user);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                // Log exception (optional)
+                throw new Exception("Failed to reset password", ex);
+            }
+        }
+
+       
+
     }
 }

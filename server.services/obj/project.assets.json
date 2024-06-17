@@ -4737,11 +4737,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pce100\\Desktop\\Tatvasoft\\Quizwhiz\\QuizWhiz\\server.services\\server.services.csproj",
+      "projectUniqueName": "D:\\QuizWhiz\\QuizWhiz\\QuizWhiz\\server.services\\server.services.csproj",
       "projectName": "server.services",
-      "projectPath": "C:\\Users\\pce100\\Desktop\\Tatvasoft\\Quizwhiz\\QuizWhiz\\server.services\\server.services.csproj",
+      "projectPath": "D:\\QuizWhiz\\QuizWhiz\\QuizWhiz\\server.services\\server.services.csproj",
       "packagesPath": "C:\\Users\\pce100\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pce100\\Desktop\\Tatvasoft\\Quizwhiz\\QuizWhiz\\server.services\\obj\\",
+      "outputPath": "D:\\QuizWhiz\\QuizWhiz\\QuizWhiz\\server.services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pce100\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4758,8 +4758,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\pce100\\Desktop\\Tatvasoft\\Quizwhiz\\QuizWhiz\\server.repository\\server.repository.csproj": {
-              "projectPath": "C:\\Users\\pce100\\Desktop\\Tatvasoft\\Quizwhiz\\QuizWhiz\\server.repository\\server.repository.csproj"
+            "D:\\QuizWhiz\\QuizWhiz\\QuizWhiz\\server.repository\\server.repository.csproj": {
+              "projectPath": "D:\\QuizWhiz\\QuizWhiz\\QuizWhiz\\server.repository\\server.repository.csproj"
             }
           }
         }
@@ -4768,11 +4768,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {

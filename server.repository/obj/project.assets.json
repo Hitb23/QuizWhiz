@@ -2090,11 +2090,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pce100\\Desktop\\Tatvasoft\\Quizwhiz\\QuizWhiz\\server.repository\\server.repository.csproj",
+      "projectUniqueName": "D:\\QuizWhiz\\QuizWhiz\\QuizWhiz\\server.repository\\server.repository.csproj",
       "projectName": "server.repository",
-      "projectPath": "C:\\Users\\pce100\\Desktop\\Tatvasoft\\Quizwhiz\\QuizWhiz\\server.repository\\server.repository.csproj",
+      "projectPath": "D:\\QuizWhiz\\QuizWhiz\\QuizWhiz\\server.repository\\server.repository.csproj",
       "packagesPath": "C:\\Users\\pce100\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pce100\\Desktop\\Tatvasoft\\Quizwhiz\\QuizWhiz\\server.repository\\obj\\",
+      "outputPath": "D:\\QuizWhiz\\QuizWhiz\\QuizWhiz\\server.repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pce100\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2111,8 +2111,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\pce100\\Desktop\\Tatvasoft\\Quizwhiz\\QuizWhiz\\DataLayer\\server.DataLayer.csproj": {
-              "projectPath": "C:\\Users\\pce100\\Desktop\\Tatvasoft\\Quizwhiz\\QuizWhiz\\DataLayer\\server.DataLayer.csproj"
+            "D:\\QuizWhiz\\QuizWhiz\\QuizWhiz\\DataLayer\\server.DataLayer.csproj": {
+              "projectPath": "D:\\QuizWhiz\\QuizWhiz\\QuizWhiz\\DataLayer\\server.DataLayer.csproj"
             }
           }
         }
@@ -2121,11 +2121,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {

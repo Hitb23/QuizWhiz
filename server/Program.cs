@@ -48,6 +48,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 builder.Services.AddScoped<server.DataLayer.Helpers.HashingHelper>();
 builder.Services.AddScoped<server.DataLayer.Helpers.JwtHelper>();
+builder.Services.AddScoped<server.DataLayer.Helpers.EmailSenderHelper>();
 
 
 builder.Services.AddCors(options =>
