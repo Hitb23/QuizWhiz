@@ -34,24 +34,19 @@ namespace server.repository.Repository
 
                 var user = new User
                 {
+                  
                     Email = newUser.Email,
-                    Username = newUser.Email.Substring(0, newUser.Email.IndexOf('@')),
+                    Username = newUser.UserName,
                     PasswordHash = hashedPassword,
                     CreatedDate = DateTime.UtcNow,
                 };
 
                 var registeredUser = await _userRepository.RegisterUser(user);
 
-                var contestant = new Contestant
-                {
-                    UserId = registeredUser.UserId,
-                    Email = registeredUser.Email,
-                   CreatedDate = DateTime.UtcNow,
-                   ModifiedDate = DateTime.UtcNow
-                };
+                
 
                 // Example of further logic with contestant, if needed
-               var AddedContestant =await _userRepository.AddContestant(contestant);
+              
 
                 return new OkObjectResult(new { message = "Registration successful." });
             }
@@ -61,6 +56,19 @@ namespace server.repository.Repository
                 {
                     StatusCode = 500
                 };
+            }
+        }
+
+        public async Task<bool> checkUserName(string userName)
+        {
+            try
+            {
+                var user = _userRepository.IsValidUserName(userName);
+                return user.Result == null;
+            }
+            catch (Exception ex)
+            {
+                return false;
             }
         }
     }

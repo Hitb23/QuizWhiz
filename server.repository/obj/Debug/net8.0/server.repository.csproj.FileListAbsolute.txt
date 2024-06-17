@@ -9,8 +9,8 @@ D:\QuizWhiz\QuizWhiz\server.repository\obj\Debug\net8.0\server.repository.Assemb
 D:\QuizWhiz\QuizWhiz\server.repository\obj\Debug\net8.0\server.repository.AssemblyInfo.cs
 D:\QuizWhiz\QuizWhiz\server.repository\obj\Debug\net8.0\server.repository.csproj.CoreCompileInputs.cache
 D:\QuizWhiz\QuizWhiz\server.repository\obj\Debug\net8.0\server.repository.sourcelink.json
-D:\QuizWhiz\QuizWhiz\server.repository\obj\Debug\net8.0\server.r.711FD168.Up2Date
 D:\QuizWhiz\QuizWhiz\server.repository\obj\Debug\net8.0\server.repository.dll
 D:\QuizWhiz\QuizWhiz\server.repository\obj\Debug\net8.0\refint\server.repository.dll
 D:\QuizWhiz\QuizWhiz\server.repository\obj\Debug\net8.0\server.repository.pdb
 D:\QuizWhiz\QuizWhiz\server.repository\obj\Debug\net8.0\ref\server.repository.dll
+D:\QuizWhiz\QuizWhiz\server.repository\obj\Debug\net8.0\server.repository.csproj.CopyComplete

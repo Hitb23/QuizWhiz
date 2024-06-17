@@ -46,6 +46,12 @@ namespace server.Controller
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
+        [HttpGet("checkUserName")]
+        public async Task<bool> checkUserName(string userName)
+        {
+            var CheckuserName = await _userServices.checkUserName(userName);
+            return CheckuserName;
 
+        }
     }
 }

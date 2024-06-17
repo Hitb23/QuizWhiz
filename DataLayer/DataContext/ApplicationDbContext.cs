@@ -16,8 +16,8 @@ namespace server.DataLayer.DataContext
 
         public DbSet<User> Users { get; set; }
         public DbSet<UserRole> UserRoles { get; set; }
-        public DbSet<ResetPassword> ResetPasswords { get; set; }
-        public DbSet<Contestant> Contestants { get; set; }
-        public DbSet<Admin> Admins { get; set; }
+        
+        
+       
     }
 }
