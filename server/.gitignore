@@ -5,3 +5,4 @@ server.services/obj/
 server/obj/
 .vs/QuizWhiz/v17/DocumentLayout.json
 .vs/QuizWhiz/v17/.suo
+.vs/*/*.suo
