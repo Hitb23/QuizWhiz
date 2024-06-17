@@ -36,7 +36,7 @@ namespace server.repository.Repository
                 {
                   
                     Email = newUser.Email,
-                    Username = newUser.UserName,
+                    Username = newUser.Email.Substring(0, newUser.Email.IndexOf('@')),
                     PasswordHash = hashedPassword,
                     CreatedDate = DateTime.UtcNow,
                 };
