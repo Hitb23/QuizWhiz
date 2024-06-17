@@ -39,6 +39,7 @@ namespace server.repository.Repository
                     Username = newUser.Email.Substring(0, newUser.Email.IndexOf('@')),
                     PasswordHash = hashedPassword,
                     CreatedDate = DateTime.UtcNow,
+                    
                 };
 
                 var registeredUser = await _userRepository.RegisterUser(user);

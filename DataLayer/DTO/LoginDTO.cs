@@ -13,11 +13,11 @@ namespace server.DataLayer.DTO
         [Required(ErrorMessage = "Email is required")]
         [RegularExpression("^[a-zA-Z0-9_\\.-]+@([a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,6}$", ErrorMessage = "Please Provide Valid Email")]
         [DataType(DataType.EmailAddress)]
-        public string Email { get; set; }
+        public required string Email { get; set; }
 
         [Column(TypeName = "character varying")]
         [RegularExpression(@"^(?=.*[A-Z])(?=.*\d)(?=.*[a-z])(?=.*\W).{8,15}$", ErrorMessage = "Please enter strong password")]
-        public string Password { get; set; }
+        public required string Password { get; set; }
         
     }
 }
