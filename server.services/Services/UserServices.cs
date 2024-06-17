@@ -40,7 +40,7 @@ namespace server.repository.Repository
                     Username = newUser.Username,
                     PasswordHash = hashedPassword,
                     NameAbbreviation=newUser.Username.Substring(0,2),
-                    CreatedDate = DateTime.UtcNow,
+                    CreatedDate = DateTime.Now,
                 };
 
                 var registeredUser = await _userRepository.RegisterUser(user);
