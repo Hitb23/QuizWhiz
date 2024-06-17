@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qf+iyZb1/YMwh3bT7DTMnzrj0vXHMBBMVJc4hOT8sJBzW6pR+rgppVo7eB/u8xDNFrMpcyudhx1+hRvuNQ3Knw==",
+  "dgSpecHash": "e4mmCbdGQCE=",
   "success": true,
-  "projectFilePath": "D:\\QuizWhiz\\QuizWhiz\\server.services\\server.services.csproj",
+  "projectFilePath": "C:\\Users\\pce100\\Desktop\\Tatvasoft\\Quizwhiz\\QuizWhiz\\server.services\\server.services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pce100\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\pce100\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

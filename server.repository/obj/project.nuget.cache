@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dnmSWkY2cqlFyb2b+m8gfxLf2o4JJ+t4z/X4fM/ZWNp4ArlQGmBLSCUvi5yEi0tBOmgNHhze58dPVo2bxIKujQ==",
+  "dgSpecHash": "jqm0U3WQ0o4=",
   "success": true,
-  "projectFilePath": "D:\\QuizWhiz\\QuizWhiz\\server.repository\\server.repository.csproj",
+  "projectFilePath": "C:\\Users\\pce100\\Desktop\\Tatvasoft\\Quizwhiz\\QuizWhiz\\server.repository\\server.repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pce100\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.6\\microsoft.aspnetcore.cryptography.internal.8.0.6.nupkg.sha512",
     "C:\\Users\\pce100\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.6\\microsoft.aspnetcore.cryptography.keyderivation.8.0.6.nupkg.sha512",
