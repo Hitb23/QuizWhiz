@@ -4,3 +4,44 @@ DataLayer/obj/
 server.repository/obj/
 server.services/obj/
 server/obj/
+server.repository/bin/
+server.services/bin/
+server/bin/
+
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+
+*_i.c          # Ignore files ending with _i.c
+*_p.c          # Ignore files ending with _p.c
+*_h.h          # Ignore files ending with _h.h
+*.ilk          # Ignore all .ilk files (incremental link files)
+*.meta         # Ignore all .meta files (metadata files)
+*.obj          # Ignore all .obj files (object files)
+*.pch          # Ignore all .pch files (precompiled headers)
+*.pdb          # Ignore all .pdb files (program database files)
+*.pgc          # Ignore all .pgc files (profile-guided optimization files)
+*.pgd          # Ignore all .pgd files (profile-guided optimization files)
+*.rsp          # Ignore all .rsp files (response files)
+*.sbr          # Ignore all .sbr files (source browser files)
+*.tlb          # Ignore all .tlb files (type library files)
+*.tli          # Ignore all .tli files (template implementation files)
+*.tlh          # Ignore all .tlh files (type library headers)
+*.tmp          # Ignore all .tmp files (temporary files)
+*.tmp_proj     # Ignore all .tmp_proj files (temporary project files)
+*.log          # Ignore all .log files (log files)
+*.vspscc       # Ignore all .vspscc files (Visual Studio source control files)
+*.vssscc       # Ignore all .vssscc files (Visual Studio source control files)
+*.builds       # Ignore all .builds files (build configuration files)
+*.pidb         # Ignore all .pidb files (project intermediate database files)
+*.svclog       # Ignore all .svclog files (service trace log files)
+*.scc          # Ignore all .scc files (source code control files)
