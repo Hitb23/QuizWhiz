@@ -10,11 +10,11 @@
         "projectUniqueName": "D:\\QuizWhiz\\QuizWhiz\\DataLayer\\server.DataLayer.csproj",
         "projectName": "server.DataLayer",
         "projectPath": "D:\\QuizWhiz\\QuizWhiz\\DataLayer\\server.DataLayer.csproj",
-        "packagesPath": "C:\\Users\\pce100\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\pct180\\.nuget\\packages\\",
         "outputPath": "D:\\QuizWhiz\\QuizWhiz\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pce100\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pct180\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -85,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -95,11 +100,11 @@
         "projectUniqueName": "D:\\QuizWhiz\\QuizWhiz\\server.repository\\server.repository.csproj",
         "projectName": "server.repository",
         "projectPath": "D:\\QuizWhiz\\QuizWhiz\\server.repository\\server.repository.csproj",
-        "packagesPath": "C:\\Users\\pce100\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\pct180\\.nuget\\packages\\",
         "outputPath": "D:\\QuizWhiz\\QuizWhiz\\server.repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pce100\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pct180\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -123,6 +128,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -150,7 +160,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
