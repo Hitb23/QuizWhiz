@@ -34,11 +34,11 @@ namespace server.repository.Repository
 
                 var user = new User
                 {
-                  
+                    Username = newUser.Username,
                     Email = newUser.Email,
-                    Username = newUser.Email.Substring(0, newUser.Email.IndexOf('@')),
+                    NameAbbreviation = newUser.Email.Substring(0, 2),
                     PasswordHash = hashedPassword,
-                    CreatedDate = DateTime.UtcNow,
+                    CreatedDate = DateTime.Now,
                     
                 };
 
