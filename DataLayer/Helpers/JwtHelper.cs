@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
+using server.DataLayer.Models;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
@@ -18,13 +19,14 @@ namespace server.DataLayer.Helpers
         {
             _configuration = configuration;
         }
-        public string GenerateJwtToken(string Email, string Password, string Role)
+        public string GenerateJwtToken(string email, string password, string role, string userName)
         {
             var claims = new[]
            {
-                new Claim(ClaimTypes.Email, Email),
-                new Claim(ClaimTypes.Role, Role),
-                new Claim(ClaimTypes.Hash, Password)
+                new Claim("Email", email),
+                new Claim("Role", role),
+                new Claim("Password", password),
+                new Claim ("Username",userName )
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
@@ -39,7 +41,6 @@ namespace server.DataLayer.Helpers
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
-
         
     }
 }
