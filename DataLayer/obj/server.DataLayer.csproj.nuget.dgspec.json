@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\QuizWhiz\\QuizWhiz\\QuizWhiz\\DataLayer\\server.DataLayer.csproj": {}
+    "D:\\QuizWhiz\\QuizWhiz\\DataLayer\\server.DataLayer.csproj": {}
   },
   "projects": {
-    "D:\\QuizWhiz\\QuizWhiz\\QuizWhiz\\DataLayer\\server.DataLayer.csproj": {
+    "D:\\QuizWhiz\\QuizWhiz\\DataLayer\\server.DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\QuizWhiz\\QuizWhiz\\QuizWhiz\\DataLayer\\server.DataLayer.csproj",
+        "projectUniqueName": "D:\\QuizWhiz\\QuizWhiz\\DataLayer\\server.DataLayer.csproj",
         "projectName": "server.DataLayer",
-        "projectPath": "D:\\QuizWhiz\\QuizWhiz\\QuizWhiz\\DataLayer\\server.DataLayer.csproj",
+        "projectPath": "D:\\QuizWhiz\\QuizWhiz\\DataLayer\\server.DataLayer.csproj",
         "packagesPath": "C:\\Users\\pce100\\.nuget\\packages\\",
-        "outputPath": "D:\\QuizWhiz\\QuizWhiz\\QuizWhiz\\DataLayer\\obj\\",
+        "outputPath": "D:\\QuizWhiz\\QuizWhiz\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pce100\\AppData\\Roaming\\NuGet\\NuGet.Config",

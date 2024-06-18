@@ -13,7 +13,6 @@ D:\QuizWhiz\QuizWhiz\server.repository\obj\Debug\net8.0\server.repository.dll
 D:\QuizWhiz\QuizWhiz\server.repository\obj\Debug\net8.0\refint\server.repository.dll
 D:\QuizWhiz\QuizWhiz\server.repository\obj\Debug\net8.0\server.repository.pdb
 D:\QuizWhiz\QuizWhiz\server.repository\obj\Debug\net8.0\ref\server.repository.dll
-D:\QuizWhiz\QuizWhiz\server.repository\obj\Debug\net8.0\server.r.711FD168.Up2Date
 D:\QuizWhiz\QuizWhiz\QuizWhiz\server.repository\bin\Debug\net8.0\server.repository.deps.json
 D:\QuizWhiz\QuizWhiz\QuizWhiz\server.repository\bin\Debug\net8.0\server.repository.dll
 D:\QuizWhiz\QuizWhiz\QuizWhiz\server.repository\bin\Debug\net8.0\server.repository.pdb
@@ -30,3 +29,4 @@ D:\QuizWhiz\QuizWhiz\QuizWhiz\server.repository\obj\Debug\net8.0\server.reposito
 D:\QuizWhiz\QuizWhiz\QuizWhiz\server.repository\obj\Debug\net8.0\refint\server.repository.dll
 D:\QuizWhiz\QuizWhiz\QuizWhiz\server.repository\obj\Debug\net8.0\server.repository.pdb
 D:\QuizWhiz\QuizWhiz\QuizWhiz\server.repository\obj\Debug\net8.0\ref\server.repository.dll
+D:\QuizWhiz\QuizWhiz\server.repository\obj\Debug\net8.0\server.repository.csproj.CopyComplete

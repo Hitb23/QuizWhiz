@@ -5280,11 +5280,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\QuizWhiz\\QuizWhiz\\QuizWhiz\\server\\server.csproj",
+      "projectUniqueName": "D:\\QuizWhiz\\QuizWhiz\\server\\server.csproj",
       "projectName": "server",
-      "projectPath": "D:\\QuizWhiz\\QuizWhiz\\QuizWhiz\\server\\server.csproj",
+      "projectPath": "D:\\QuizWhiz\\QuizWhiz\\server\\server.csproj",
       "packagesPath": "C:\\Users\\pce100\\.nuget\\packages\\",
-      "outputPath": "D:\\QuizWhiz\\QuizWhiz\\QuizWhiz\\server\\obj\\",
+      "outputPath": "D:\\QuizWhiz\\QuizWhiz\\server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pce100\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5301,8 +5301,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\QuizWhiz\\QuizWhiz\\QuizWhiz\\server.services\\server.services.csproj": {
-              "projectPath": "D:\\QuizWhiz\\QuizWhiz\\QuizWhiz\\server.services\\server.services.csproj"
+            "D:\\QuizWhiz\\QuizWhiz\\server.services\\server.services.csproj": {
+              "projectPath": "D:\\QuizWhiz\\QuizWhiz\\server.services\\server.services.csproj"
             }
           }
         }

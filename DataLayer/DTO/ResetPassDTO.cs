@@ -17,7 +17,7 @@ namespace server.DataLayer.DTO
         public required string NewPassword { get; set; }
 
         [Column(TypeName = "character varying")]
-        [Compare("Password")]
+        [Compare("NewPassword")]
         public required string ConfirmNewPassword { get; set; }
     }
 }

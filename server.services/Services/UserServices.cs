@@ -35,19 +35,12 @@ namespace server.repository.Repository
 
                 var user = new User
                 {
-                    Username = newUser.Username,
-                    Email = newUser.Email,
-<<<<<<< HEAD
-                    Username = newUser.Username,
-                    PasswordHash = hashedPassword,
-                    NameAbbreviation=newUser.Username.Substring(0,2),
-                    CreatedDate = DateTime.Now,
-=======
-                    NameAbbreviation = newUser.Email.Substring(0, 2),
-                    PasswordHash = hashedPassword,
-                    CreatedDate = DateTime.Now,
                     
->>>>>>> 61c1409383a92fda914ae6d2fe4e20ef34e721e7
+                    Email = newUser.Email,
+                    Username = newUser.Username,
+                    PasswordHash = hashedPassword,
+                    NameAbbreviation = newUser.Email.Substring(0, 2),
+                    CreatedDate = DateTime.Now,
                 };
 
                 var registeredUser = await _userRepository.RegisterUser(user);

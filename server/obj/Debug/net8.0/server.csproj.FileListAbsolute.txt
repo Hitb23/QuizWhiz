@@ -240,7 +240,6 @@ D:\QuizWhiz\QuizWhiz\server\bin\Debug\net8.0\server.DataLayer.pdb
 D:\QuizWhiz\QuizWhiz\server\bin\Debug\net8.0\server.repository.pdb
 D:\QuizWhiz\QuizWhiz\server\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\QuizWhiz\QuizWhiz\server\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-D:\QuizWhiz\QuizWhiz\server\obj\Debug\net8.0\server.csproj.Up2Date
 D:\QuizWhiz\QuizWhiz\QuizWhiz\server\bin\Debug\net8.0\appsettings.Development.json
 D:\QuizWhiz\QuizWhiz\QuizWhiz\server\bin\Debug\net8.0\appsettings.json
 D:\QuizWhiz\QuizWhiz\QuizWhiz\server\bin\Debug\net8.0\server.exe
@@ -367,3 +366,4 @@ D:\QuizWhiz\QuizWhiz\QuizWhiz\server\obj\Debug\net8.0\refint\server.dll
 D:\QuizWhiz\QuizWhiz\QuizWhiz\server\obj\Debug\net8.0\server.pdb
 D:\QuizWhiz\QuizWhiz\QuizWhiz\server\obj\Debug\net8.0\server.genruntimeconfig.cache
 D:\QuizWhiz\QuizWhiz\QuizWhiz\server\obj\Debug\net8.0\ref\server.dll
+D:\QuizWhiz\QuizWhiz\server\obj\Debug\net8.0\server.csproj.CopyComplete

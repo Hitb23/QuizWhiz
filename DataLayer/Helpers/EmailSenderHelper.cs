@@ -24,7 +24,7 @@ namespace server.DataLayer.Helpers
             {
                 var emailSettings = _configuration.GetSection("EmailSettings");
 
-                using (var smtpClient = new SmtpClient(emailSettings["SmtpServer"]))
+                using ( var smtpClient = new SmtpClient(emailSettings["SmtpServer"]))
                 {
                     smtpClient.Port = int.Parse(emailSettings["SmtpPort"]);
                     smtpClient.Credentials = new NetworkCredential(emailSettings["SmtpUser"], emailSettings["SmtpPass"]);
