@@ -366,4 +366,4 @@ D:\QuizWhiz\QuizWhiz\QuizWhiz\server\obj\Debug\net8.0\refint\server.dll
 D:\QuizWhiz\QuizWhiz\QuizWhiz\server\obj\Debug\net8.0\server.pdb
 D:\QuizWhiz\QuizWhiz\QuizWhiz\server\obj\Debug\net8.0\server.genruntimeconfig.cache
 D:\QuizWhiz\QuizWhiz\QuizWhiz\server\obj\Debug\net8.0\ref\server.dll
-D:\QuizWhiz\QuizWhiz\server\obj\Debug\net8.0\server.csproj.CopyComplete
+D:\QuizWhiz\QuizWhiz\server\obj\Debug\net8.0\server.csproj.Up2Date
