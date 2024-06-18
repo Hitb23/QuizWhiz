@@ -10,6 +10,9 @@ namespace server.DataLayer.DTO
 {
     public class UserDTO
     {
+        [Required(ErrorMessage = "Username is required")]
+        public required string Username { get; set; }
+
         [Required(ErrorMessage = "Email is required")]
         [RegularExpression("^[a-zA-Z0-9_\\.-]+@([a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,6}$", ErrorMessage = "Please Provide Valid Email")]
         [DataType(DataType.EmailAddress)]
