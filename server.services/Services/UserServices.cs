@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace server.repository.Repository
@@ -34,12 +35,12 @@ namespace server.repository.Repository
 
                 var user = new User
                 {
-                    Username = newUser.Username,
-                    Email = newUser.Email,
-                    NameAbbreviation = newUser.Email.Substring(0, 2),
-                    PasswordHash = hashedPassword,
-                    CreatedDate = DateTime.Now,
                     
+                    Email = newUser.Email,
+                    Username = newUser.Username,
+                    PasswordHash = hashedPassword,
+                    NameAbbreviation = newUser.Email.Substring(0, 2),
+                    CreatedDate = DateTime.Now,
                 };
 
                 var registeredUser = await _userRepository.RegisterUser(user);
@@ -76,6 +77,14 @@ namespace server.repository.Repository
         {
             try
             {
+                /*token = Regex.Replace(token, @"[^a-zA-Z0-9+/=]", string.Empty);
+
+                // Check for padding issues
+                if (token.Length % 4 != 0)
+                {
+                    int padding = 4 - (token.Length % 4);
+                    token = token.PadRight(token.Length + padding, '=');
+                }*/
                 var decodedToken = Encoding.UTF8.GetString(Convert.FromBase64String(token));
                 var parts = decodedToken.Split(':');
                 if (parts.Length != 2)
