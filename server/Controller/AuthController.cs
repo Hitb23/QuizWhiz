@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using server.DataLayer.DataContext;
 using server.DataLayer.DTO;
+using server.DataLayer.Helpers;
 using server.repository.IRepository;
 using server.services.IServices;
 using System.Data;
@@ -18,14 +19,16 @@ namespace server.Controller
         private readonly IConfiguration _configuration;
         private readonly IAuthService _authService;
         private readonly IUserServices _userService;
+        private readonly IUserRepository _userRepository;
         
 
-        public AuthController(ApplicationDbContext context, IConfiguration configuration, IAuthService authService,IUserServices userServices)
+        public AuthController(ApplicationDbContext context, IConfiguration configuration, IAuthService authService,IUserServices userServices, IUserRepository userRepository)
         {
             _context = context;
             _configuration = configuration;
             _authService = authService;
             _userService = userServices;
+            _userRepository = userRepository;
         }
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginDTO LoginCredential)
@@ -46,6 +49,35 @@ namespace server.Controller
             return Ok(new { token });
 
         }
+        [HttpPost("admin-login")]
+        public async Task<IActionResult> AdminLogin([FromBody] LoginDTO AdminLoginCredential)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var user = _userRepository.GetUserByEmail(AdminLoginCredential.Email);
+
+            if(user == null)
+            {
+                return Unauthorized(new { message = "User Not Found" });
+            }
+
+            if (user != null && user.RoleId == 1)
+            {
+                var token = await _authService.AuthenticateUserAsync(AdminLoginCredential);
+                if (token == null)
+                {
+                    return Unauthorized(new { message = "Invalid credentials" });
+                }
+                return Ok(new { token });
+            }
+
+            return Unauthorized(new { message = "Access Denied" });
+                                 
+        }
+
 
         [HttpPost("forgot-password")]
         public IActionResult ForgotPassword([FromBody] ForgotPassDTO request)
