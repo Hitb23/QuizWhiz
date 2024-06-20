@@ -123,10 +123,8 @@ namespace server.repository.Repository
                 {
                     throw new Exception("Invalid or expired link");
                 }
-
-               
+              
                 var UpdatedPassword = _hashingHelper.HashPassword(newPassword);
-
                 user.PasswordHash = UpdatedPassword;
                 user.ResetToken = String.Empty;
                 user.ResetTokenExpiry = null;

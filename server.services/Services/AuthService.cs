@@ -25,6 +25,13 @@ namespace server.services.Services
             _emailSenderHelper = emailSenderHelper;
         }
 
+        public Task<string> AuthenticateAdminAsync(LoginDTO adminLoginCredential)
+        {
+
+            return null;
+
+        }
+
         public async Task<string> AuthenticateUserAsync(LoginDTO loginCredential)
         {
             var user = _userRepository.GetUserByEmail(loginCredential.Email);

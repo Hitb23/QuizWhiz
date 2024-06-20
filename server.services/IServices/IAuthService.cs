@@ -12,5 +12,7 @@ namespace server.services.IServices
         Task<string> AuthenticateUserAsync(LoginDTO loginCredential);
 
         public bool SendPasswordResetLink(string email);
+
+       
     }
 }
