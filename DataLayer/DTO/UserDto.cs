@@ -11,6 +11,7 @@ namespace server.DataLayer.DTO
     public class UserDTO
     {
         [Required(ErrorMessage = "Username is required")]
+        [RegularExpression("^[a-z][a-z0-9._-]{2,19}$", ErrorMessage = "Username must start with a lowercase letter, be 3-20 characters, and contain only lowercase letters, numbers, _, ., or -.")]
         public required string Username { get; set; }
 
         [Required(ErrorMessage = "Email is required")]

@@ -23,7 +23,6 @@ namespace server.DataLayer.Helpers
             try
             {
                 var emailSettings = _configuration.GetSection("EmailSettings");
-
                 using ( var smtpClient = new SmtpClient(emailSettings["SmtpServer"]))
                 {
                     smtpClient.Port = int.Parse(emailSettings["SmtpPort"]);
