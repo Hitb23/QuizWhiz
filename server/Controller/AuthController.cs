@@ -39,14 +39,26 @@ namespace server.Controller
             {
                 return BadRequest(ModelState);
             }
-            var token = await _authService.AuthenticateUserAsync(LoginCredential);
 
-            if (token == null)
+            var user = _userRepository.GetUserByEmail(LoginCredential.Email);
+            if (user == null)
             {
-                return Unauthorized(new { message = "Invalid credentials" });
+                return Unauthorized(new { message = "User Not Found" });
             }
 
-            return Ok(new { token });
+            if(user!= null && user.RoleId == 2)
+            {
+                var token = await _authService.AuthenticateUserAsync(LoginCredential);
+
+                if (token == null)
+                {
+                    return Unauthorized(new { message = "Invalid credentials" });
+                }
+
+                return Ok(new { token });
+            }
+
+            return Unauthorized(new { message = "Access Denied" });
 
         }
         [HttpPost("admin-login")]
